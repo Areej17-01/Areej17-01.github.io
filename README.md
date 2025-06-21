@@ -67,6 +67,29 @@
             color: #4ecdc4;
         }
 
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 15px;
+            flex-wrap: wrap;
+        }
+
+        .contact-link-header {
+            color: #fff;
+            text-decoration: none;
+            font-size: 0.9rem;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            transition: all 0.3s ease;
+        }
+
+        .contact-link-header:hover {
+            color: #ff6b6b;
+            transform: translateY(-2px);
+        }
+
         /* About Section */
         .about-section {
             padding: 60px 0;
@@ -612,6 +635,12 @@
             .projects {
                 padding: 40px 0;
             }
+
+            .contact-info {
+                flex-direction: column;
+                align-items: center;
+                gap: 10px;
+            }
         }
     </style>
 </head>
@@ -622,6 +651,17 @@
             <h1 class="name-animation">Areej Mehboob</h1>
             <div class="typing-animation">
                 <span id="typing-text">NLP Researcher | LLMs | Retrieval Systems</span>
+            </div>
+            <div class="contact-info">
+                <a href="mailto:mehboobareej01@gmail.com" class="contact-link-header">
+                    ✉️ mehboobareej01@gmail.com
+                </a>
+                <a href="https://www.linkedin.com/in/areej-mehboob-396b7a207/" class="contact-link-header" target="_blank">
+                    🔗 LinkedIn
+                </a>
+                <a href="https://github.com/Areej17-01" class="contact-link-header" target="_blank">
+                    💻 GitHub
+                </a>
             </div>
         </div>
     </section>
@@ -857,7 +897,7 @@
                     <span class="badge">Docker</span>
                     <span class="badge">PostgreSQL</span>
                     <span class="badge">Git</span>
-                    <span class="badge">Linux</span>
+                    <span class="badge">Hugging Face deployment</span>
                 </div>
             </div>
         </div>
@@ -883,7 +923,7 @@
 
     <!-- Footer -->
     <footer class="footer">
-        <h3>🙏 Thanks for visiting! Let's build the future of AI together! 🚀</h3>
+        <h3>🙏 Thanks for visiting! Let's build the together! 🚀</h3>
         <p style="color: #666; margin-top: 10px;">© 2024 Areej Mehboob. All rights reserved.</p>
     </footer>
 
@@ -891,7 +931,7 @@
         // Typing animation
         const texts = [
             "NLP Researcher | LLMs | Retrieval Systems",
-            "Building the Future of AI ✨",
+            "Building with AI ✨",
             "Open to Research & Collaboration!"
         ];
         let textIndex = 0;

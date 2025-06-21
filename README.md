@@ -519,43 +519,6 @@
         </div>
     </section>
 
-    <!-- Skills and Technology -->
-    <section class="skills-tech">
-        <h2>🛠️ Skills & Technologies</h2>
-        <div class="skills-grid">
-            <div class="skill-category">
-                <h3>🧠 AI/ML</h3>
-                <div class="skill-badges">
-                    <span class="badge">Python</span>
-                    <span class="badge">PyTorch</span>
-                    <span class="badge">TensorFlow</span>
-                    <span class="badge">🤗 Hugging Face</span>
-                    <span class="badge">🦜 LangChain</span>
-                </div>
-            </div>
-            <div class="skill-category">
-                <h3>🤖 Specializations</h3>
-                <div class="skill-badges">
-                    <span class="badge">RAG Systems</span>
-                    <span class="badge">AI Agents</span>
-                    <span class="badge">LLMs</span>
-                    <span class="badge">Multimodal AI</span>
-                    <span class="badge">Vector DBs</span>
-                </div>
-            </div>
-            <div class="skill-category">
-                <h3>🔧 Tools</h3>
-                <div class="skill-badges">
-                    <span class="badge">FastAPI</span>
-                    <span class="badge">Docker</span>
-                    <span class="badge">PostgreSQL</span>
-                    <span class="badge">Git</span>
-                    <span class="badge">Linux</span>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- Education -->
     <section class="table-section">
         <h2>🎓 Education</h2>
@@ -722,7 +685,42 @@
             </div>
         </div>
     </section>
-
+ <!-- Skills and Technology -->
+    <section class="skills-tech">
+        <h2>🛠️ Skills & Technologies</h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h3>🧠 AI/ML</h3>
+                <div class="skill-badges">
+                    <span class="badge">Python</span>
+                    <span class="badge">PyTorch</span>
+                    <span class="badge">TensorFlow</span>
+                    <span class="badge">🤗 Hugging Face</span>
+                    <span class="badge">🦜 LangChain</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>🤖 Specializations</h3>
+                <div class="skill-badges">
+                    <span class="badge">RAG Systems</span>
+                    <span class="badge">AI Agents</span>
+                    <span class="badge">LLMs</span>
+                    <span class="badge">Multimodal AI</span>
+                    <span class="badge">Vector DBs</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>🔧 Tools</h3>
+                <div class="skill-badges">
+                    <span class="badge">FastAPI</span>
+                    <span class="badge">Docker</span>
+                    <span class="badge">PostgreSQL</span>
+                    <span class="badge">Git</span>
+                    <span class="badge">Linux</span>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- Contact -->
     <section class="contact">
         <h2>🔗 Let's Connect</h2>

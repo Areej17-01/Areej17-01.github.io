@@ -58,25 +58,40 @@ I'm an **NLP researcher** with a background in machine learning engineering and 
 <div align="center">
 
 ### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Brain.png" alt="Brain" width="25" height="25" /> AI/ML Expertise
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/🤗%20Hugging%20Face-FFD21E?style=for-the-badge)
-![LangChain](https://img.shields.io/badge/🦜%20LangChain-1C3C3C?style=for-the-badge)
+
+<div>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch"/>
+  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow"/>
+  <img src="https://img.shields.io/badge/🤗%20Hugging%20Face-FFD21E?style=for-the-badge" alt="Hugging Face"/>
+  <img src="https://img.shields.io/badge/🦜%20LangChain-1C3C3C?style=for-the-badge" alt="LangChain"/>
+</div>
 
 ### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Robot.png" alt="Robot" width="25" height="25" /> Specializations
-![RAG Systems](https://img.shields.io/badge/RAG%20Systems-FF6B6B?style=for-the-badge)
-![AI Agents](https://img.shields.io/badge/AI%20Agents-4ECDC4?style=for-the-badge)
-![LLMs](https://img.shields.io/badge/Large%20Language%20Models-45B7D1?style=for-the-badge)
-![Multimodal AI](https://img.shields.io/badge/Multimodal%20AI-96CEB4?style=for-the-badge)
-![Vector DBs](https://img.shields.io/badge/Vector%20Databases-FFEAA7?style=for-the-badge)
+
+<div>
+  <img src="https://img.shields.io/badge/RAG%20Systems-FF6B6B?style=for-the-badge" alt="RAG Systems"/>
+  <img src="https://img.shields.io/badge/AI%20Agents-4ECDC4?style=for-the-badge" alt="AI Agents"/>
+  <img src="https://img.shields.io/badge/Large%20Language%20Models-45B7D1?style=for-the-badge" alt="LLMs"/>
+  <img src="https://img.shields.io/badge/Multimodal%20AI-96CEB4?style=for-the-badge" alt="Multimodal AI"/>
+  <img src="https://img.shields.io/badge/Vector%20Databases-FFEAA7?style=for-the-badge" alt="Vector DBs"/>
+</div>
 
 ### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Toolbox.png" alt="Toolbox" width="25" height="25" /> Tools & Frameworks
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+
+<div>
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB"/>
+  <img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
+</div>
+
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Satellite.png" alt="Satellite" width="25" height="25" /> Moving Skills Showcase
+
+<div>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&duration=2000&pause=500&color=FF6B6B&center=true&vCenter=true&width=800&lines=RAG+Systems+%7C+AI+Agents+%7C+LLMs;Multimodal+AI+%7C+Vector+Databases;Python+%7C+PyTorch+%7C+TensorFlow;LangChain+%7C+Hugging+Face+%7C+FastAPI;Research+%7C+Innovation+%7C+Collaboration" alt="Animated Skills" />
+</div>
 
 </div>
 

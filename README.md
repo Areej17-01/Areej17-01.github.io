@@ -20,7 +20,7 @@
 
         /* Animated Header */
         .header {
-            height: 100vh;
+            height: 50vh;
             display: flex;
             align-items: center;
             justify-content: center;

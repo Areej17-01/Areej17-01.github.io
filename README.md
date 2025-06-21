@@ -1,8 +1,12 @@
-# <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" alt="Waving Hand" width="35" height="35" /> Hi there, I'm Areej Mehboob
+<div align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Areej%20Mehboob&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32"/>
+</div>
 
 <div align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&width=600&lines=NLP+Researcher+%7C+LLMs+%7C+Retrieval+Systems;Building+the+Future+of+AI+%E2%9C%A8;Open+to+Research+%26+Collaboration!" alt="Typing SVG" />
 </div>
+
+<br>
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Light%20Bulb.png" alt="Light Bulb" width="25" height="25" />
@@ -10,18 +14,99 @@
   <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Light%20Bulb.png" alt="Light Bulb" width="25" height="25" />
 </div>
 
----
+<br>
+
+<!-- About Me Section with Side Layout -->
+<table align="center">
+<tr>
+<td width="50%" valign="top">
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20professions/Woman%20Technologist%20Light%20Skin%20Tone.png" alt="Woman Technologist" width="35" height="35" /> About Me
 
-I'm an **NLP researcher** with a background in machine learning engineering and a BSCS in Computer Science, currently focused on advancing Retrieval-Augmented Generation (RAG) systems, AI agents, and large language models (both traditional and multimodal). My work combines research and application development, building sophisticated retrieval engines, agentic RAG architectures, and autonomous AI agents while also creating practical applications. I have extensive hands-on experience in agent systems development and expertise in LLM evaluation methodologies and fine-tuning.
+I'm an **NLP researcher** with a background in machine learning engineering and a BSCS in Computer Science, currently focused on advancing Retrieval-Augmented Generation (RAG) systems, AI agents, and large language models (both traditional and multimodal). 
 
+My work combines research and application development, building sophisticated retrieval engines, agentic RAG architectures, and autonomous AI agents while also creating practical applications. I have extensive hands-on experience in agent systems development and expertise in LLM evaluation methodologies and fine-tuning.
 
+</td>
+<td width="50%" valign="top">
+
+<div align="center">
+  <img src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif" alt="Coding GIF" width="400"/>
+  
+  <br><br>
+  
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=16&duration=2000&pause=500&color=FF6B6B&center=true&vCenter=true&width=400&lines=🤖+AI+Research+%26+Development;🔍+RAG+Systems+Expert;🧠+LLM+Fine-tuning;🚀+Building+AI+Agents;📊+Multimodal+AI+Systems" alt="Skills Animation" />
+</div>
+
+</td>
+</tr>
+</table>
+
+<br>
+
+<!-- Fancy Skills Section -->
+<div align="center">
+<h2><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Hammer%20and%20Wrench.png" alt="Tools" width="35" height="35" /> Skills & Technologies</h2>
+</div>
+
+<table align="center">
+<tr>
+<td align="center" width="33%">
+
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Brain.png" alt="Brain" width="30" height="30" /> AI/ML
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white&labelColor=3776AB"/>
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white&labelColor=EE4C2C"/>
+  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white&labelColor=FF6F00"/>
+  <img src="https://img.shields.io/badge/🤗_Hugging_Face-FFD21E?style=for-the-badge&labelColor=FFD21E"/>
+  <img src="https://img.shields.io/badge/🦜_LangChain-1C3C3C?style=for-the-badge&labelColor=1C3C3C"/>
+</p>
+
+</td>
+<td align="center" width="33%">
+
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Robot.png" alt="Robot" width="30" height="30" /> Specializations
+
+<p align="center">
+  <img src="https://img.shields.io/badge/RAG_Systems-FF6B6B?style=for-the-badge&labelColor=FF6B6B"/>
+  <img src="https://img.shields.io/badge/AI_Agents-4ECDC4?style=for-the-badge&labelColor=4ECDC4"/>
+  <img src="https://img.shields.io/badge/LLMs-45B7D1?style=for-the-badge&labelColor=45B7D1"/>
+  <img src="https://img.shields.io/badge/Multimodal_AI-96CEB4?style=for-the-badge&labelColor=96CEB4"/>
+  <img src="https://img.shields.io/badge/Vector_DBs-FFEAA7?style=for-the-badge&labelColor=FFEAA7"/>
+</p>
+
+</td>
+<td align="center" width="33%">
+
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Toolbox.png" alt="Toolbox" width="30" height="30" /> Tools
+
+<p align="center">
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white&labelColor=009688"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white&labelColor=2496ED"/>
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white&labelColor=47A248"/>
+  <img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white&labelColor=336791"/>
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white&labelColor=F05032"/>
+</p>
+
+</td>
+</tr>
+</table>
+
+<br>
+
+<!-- Animated Skills Showcase -->
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&duration=2000&pause=500&color=FF6B6B&center=true&vCenter=true&width=900&lines=🔥+RAG+Systems+%7C+AI+Agents+%7C+Large+Language+Models;⚡+Multimodal+AI+%7C+Vector+Databases+%7C+Retrieval+Engines;🚀+Python+%7C+PyTorch+%7C+TensorFlow+%7C+LangChain;💡+Research+%7C+Innovation+%7C+Collaboration+%7C+AI+Applications" alt="Animated Skills" />
+</div>
+
+<br>
 
 ---
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Graduation%20Cap.png" alt="Graduation Cap" width="35" height="35" /> Education
 
+<div align="center">
 <table>
   <tr>
     <td><strong>University of Karachi</strong></td>
@@ -36,10 +121,13 @@ I'm an **NLP researcher** with a background in machine learning engineering and 
     <td>📅 <em>February 2021 – January 2022</em></td>
   </tr>
 </table>
+</div>
 
 ---
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Briefcase.png" alt="Briefcase" width="35" height="35" /> Work Experience
+
+<div align="center">
 
 ### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Microscope.png" alt="Microscope" width="25" height="25" /> NLP Researcher
 **Traversaal.ai** — *California, USA (Remote)* 📅 *October 2024 – Present*
@@ -51,48 +139,6 @@ I'm an **NLP researcher** with a background in machine learning engineering and 
 - Worked on Agentic RAG with LangChain and LLM prompt wrapper APIs
 - Built sophisticated retrieval engines and multimodal systems
 
----
-
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Hammer%20and%20Wrench.png" alt="Tools" width="35" height="35" /> Skills & Technologies
-
-<div align="center">
-
-### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Brain.png" alt="Brain" width="25" height="25" /> AI/ML Expertise
-
-<div>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch"/>
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow"/>
-  <img src="https://img.shields.io/badge/🤗%20Hugging%20Face-FFD21E?style=for-the-badge" alt="Hugging Face"/>
-  <img src="https://img.shields.io/badge/🦜%20LangChain-1C3C3C?style=for-the-badge" alt="LangChain"/>
-</div>
-
-### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Robot.png" alt="Robot" width="25" height="25" /> Specializations
-
-<div>
-  <img src="https://img.shields.io/badge/RAG%20Systems-FF6B6B?style=for-the-badge" alt="RAG Systems"/>
-  <img src="https://img.shields.io/badge/AI%20Agents-4ECDC4?style=for-the-badge" alt="AI Agents"/>
-  <img src="https://img.shields.io/badge/Large%20Language%20Models-45B7D1?style=for-the-badge" alt="LLMs"/>
-  <img src="https://img.shields.io/badge/Multimodal%20AI-96CEB4?style=for-the-badge" alt="Multimodal AI"/>
-  <img src="https://img.shields.io/badge/Vector%20Databases-FFEAA7?style=for-the-badge" alt="Vector DBs"/>
-</div>
-
-### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Toolbox.png" alt="Toolbox" width="25" height="25" /> Tools & Frameworks
-
-<div>
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI"/>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB"/>
-  <img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
-</div>
-
-### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Satellite.png" alt="Satellite" width="25" height="25" /> Moving Skills Showcase
-
-<div>
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&duration=2000&pause=500&color=FF6B6B&center=true&vCenter=true&width=800&lines=RAG+Systems+%7C+AI+Agents+%7C+LLMs;Multimodal+AI+%7C+Vector+Databases;Python+%7C+PyTorch+%7C+TensorFlow;LangChain+%7C+Hugging+Face+%7C+FastAPI;Research+%7C+Innovation+%7C+Collaboration" alt="Animated Skills" />
-</div>
-
 </div>
 
 ---
@@ -100,15 +146,32 @@ I'm an **NLP researcher** with a background in machine learning engineering and 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Memo.png" alt="Memo" width="35" height="35" /> Articles & Blog Posts
 
 <div align="center">
-
-| 📝 **Title** | 🔗 **Link** |
-|--------------|-------------|
-| Enabling Agentic AI Through the Model Context Protocol (MCP) | [Read on Notion](https://www.notion.so/traversaal-ai/Enabling-Agentic-AI-Through-the-Model-Context-Protocol-MCP-1b59a2e5c4a6803b9df2fb9928944831) |
-| Multi-Modal Enterprise RAG Architecture from Scratch | [Read on Medium](https://ai.gopubby.com/multi-modal-enterprise-rag-architecture-from-scratch-a3a12df0d055) |
-| Initialization of Weights in Neural Networks | [Read on Medium](https://medium.com/@mehboobareej01/initialization-of-weights-in-neural-network-7243898988de) |
-| Understanding TF-IDF: Formulas and sklearn Implementation | [Read on Medium](https://medium.com/@mehboobareej01/understanding-tf-idf-formulas-and-value-returned-output-from-sklearn-library-483cb2b02efa) |
-| Feature Extraction Essentials for Image Similarity | [Read on Medium](https://medium.com/@mehboobareej01/feature-extraction-essentials-enhancing-image-similarity-with-feature-extraction-f46473869d3a) |
-
+<table>
+  <tr>
+    <th>📝 <strong>Title</strong></th>
+    <th>🔗 <strong>Link</strong></th>
+  </tr>
+  <tr>
+    <td>Enabling Agentic AI Through the Model Context Protocol (MCP)</td>
+    <td><a href="https://www.notion.so/traversaal-ai/Enabling-Agentic-AI-Through-the-Model-Context-Protocol-MCP-1b59a2e5c4a6803b9df2fb9928944831">Read on Notion</a></td>
+  </tr>
+  <tr>
+    <td>Multi-Modal Enterprise RAG Architecture from Scratch</td>
+    <td><a href="https://ai.gopubby.com/multi-modal-enterprise-rag-architecture-from-scratch-a3a12df0d055">Read on Medium</a></td>
+  </tr>
+  <tr>
+    <td>Initialization of Weights in Neural Networks</td>
+    <td><a href="https://medium.com/@mehboobareej01/initialization-of-weights-in-neural-network-7243898988de">Read on Medium</a></td>
+  </tr>
+  <tr>
+    <td>Understanding TF-IDF: Formulas and sklearn Implementation</td>
+    <td><a href="https://medium.com/@mehboobareej01/understanding-tf-idf-formulas-and-value-returned-output-from-sklearn-library-483cb2b02efa">Read on Medium</a></td>
+  </tr>
+  <tr>
+    <td>Feature Extraction Essentials for Image Similarity</td>
+    <td><a href="https://medium.com/@mehboobareej01/feature-extraction-essentials-enhancing-image-similarity-with-feature-extraction-f46473869d3a">Read on Medium</a></td>
+  </tr>
+</table>
 </div>
 
 ---
@@ -116,12 +179,23 @@ I'm an **NLP researcher** with a background in machine learning engineering and 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Trophy.png" alt="Trophy" width="35" height="35" /> Certifications
 
 <div align="center">
-
-| 🏆 **Certification** | 🏢 **Organization** | 📅 **Date** |
-|---------------------|---------------------|-------------|
-| Applied Data Science with Machine Learning | Techmazone | 2021-2022 |
-| *Add your certifications here* | *Organization* | *Date* |
-
+<table>
+  <tr>
+    <th>🏆 <strong>Certification</strong></th>
+    <th>🏢 <strong>Organization</strong></th>
+    <th>📅 <strong>Date</strong></th>
+  </tr>
+  <tr>
+    <td>Applied Data Science with Machine Learning</td>
+    <td>Techmazone</td>
+    <td>2021-2022</td>
+  </tr>
+  <tr>
+    <td><em>Add your certifications here</em></td>
+    <td><em>Organization</em></td>
+    <td><em>Date</em></td>
+  </tr>
+</table>
 </div>
 
 ---
@@ -129,18 +203,35 @@ I'm an **NLP researcher** with a background in machine learning engineering and 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Rocket.png" alt="Rocket" width="35" height="35" /> Featured Projects
 
 <div align="center">
-
-| 🚀 **Project** | 💡 **Description** | 🔧 **Tech Stack** | 🔗 **Link** |
-|---------------|-------------------|-------------------|-------------|
-| *Project Name* | *Brief description* | *Technologies used* | *[Link](#)* |
-| *Project Name* | *Brief description* | *Technologies used* | *[Link](#)* |
-| *Project Name* | *Brief description* | *Technologies used* | *[Link](#)* |
-
+<table>
+  <tr>
+    <th>🚀 <strong>Project</strong></th>
+    <th>💡 <strong>Description</strong></th>
+    <th>🔧 <strong>Tech Stack</strong></th>
+    <th>🔗 <strong>Link</strong></th>
+  </tr>
+  <tr>
+    <td><em>Project Name</em></td>
+    <td><em>Brief description</em></td>
+    <td><em>Technologies used</em></td>
+    <td><em><a href="#">Link</a></em></td>
+  </tr>
+  <tr>
+    <td><em>Project Name</em></td>
+    <td><em>Brief description</em></td>
+    <td><em>Technologies used</em></td>
+    <td><em><a href="#">Link</a></em></td>
+  </tr>
+  <tr>
+    <td><em>Project Name</em></td>
+    <td><em>Brief description</em></td>
+    <td><em>Technologies used</em></td>
+    <td><em><a href="#">Link</a></em></td>
+  </tr>
+</table>
 </div>
 
 ---
-
-
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Link.png" alt="Link" width="35" height="35" /> Connect With Me
 
@@ -154,6 +245,10 @@ I'm an **NLP researcher** with a background in machine learning engineering and 
 </div>
 
 ---
+
+<div align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer"/>
+</div>
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Folded%20Hands%20Light%20Skin%20Tone.png" alt="Thank You" width="35" height="35" />

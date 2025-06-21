@@ -16,9 +16,7 @@
 
 I'm an **NLP researcher** with a background in machine learning engineering and a BSCS in Computer Science, currently focused on advancing Retrieval-Augmented Generation (RAG) systems, AI agents, and large language models (both traditional and multimodal). My work combines research and application development, building sophisticated retrieval engines, agentic RAG architectures, and autonomous AI agents while also creating practical applications. I have extensive hands-on experience in agent systems development and expertise in LLM evaluation methodologies and fine-tuning.
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=areejmehboob&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" />
-</div>
+
 
 ---
 
@@ -127,18 +125,7 @@ I'm an **NLP researcher** with a background in machine learning engineering and 
 
 ---
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Chart%20Increasing.png" alt="Chart" width="35" height="35" /> GitHub Analytics
 
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=areejmehboob&layout=compact&langs_count=8&theme=radical&hide_border=true"/>
-  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=areejmehboob&theme=radical&hide_border=true"/>
-</div>
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=areejmehboob&theme=redical&hide_border=true&hide_title=false&area=true&custom_title=Total%20Contribution%20Graph%20In%20All%20Repo"/>
-</div>
-
----
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Link.png" alt="Link" width="35" height="35" /> Connect With Me
 

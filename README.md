@@ -1,171 +1,798 @@
-<div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0d1117&height=180&section=header&text=Areej%20Mehboob&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32"/>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Areej Mehboob - NLP Researcher</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&width=600&lines=NLP+Researcher+%7C+LLMs+%7C+Retrieval+Systems;Building+the+Future+of+AI+%E2%9C%A8;Open+to+Research+%26+Collaboration!" alt="Typing SVG" />
-</div>
+        body {
+            background: #000;
+            color: #fff;
+            font-family: 'Arial', sans-serif;
+            overflow-x: hidden;
+        }
 
-<br>
+        /* Animated Header */
+        .header {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            position: relative;
+            overflow: hidden;
+        }
 
-<div align="center">
-  💡 <em>"The best way to predict the future is to create it."</em> - Alan Kay 💡
-</div>
+        .header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="%23000000" fill-opacity="0.1" d="M0,96L48,112C96,128,192,160,288,160C384,160,480,128,576,112C672,96,768,96,864,112C960,128,1056,160,1152,176C1248,192,1344,192,1392,192L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>') repeat-x;
+            animation: wave 10s linear infinite;
+        }
 
-<br>
+        @keyframes wave {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-100%); }
+        }
 
-## 👩‍💻 About Me 
+        .name-animation {
+            font-size: 4rem;
+            font-weight: bold;
+            text-align: center;
+            background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4);
+            background-size: 400% 400%;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: gradient-shift 3s ease-in-out infinite;
+        }
 
-I'm an NLP researcher with a background in machine learning engineering and a BSCS in Computer Science, currently focused on advancing Retrieval-Augmented Generation (RAG) systems, AI agents, and large language models (both traditional and multimodal). My work combines research and application development, building sophisticated retrieval engines, agentic RAG architectures, and autonomous AI agents while also creating practical applications. I have extensive hands-on experience in agent systems development and expertise in LLM evaluation methodologies and fine-tuning. Having transitioned from ML engineering to research, I bring both practical implementation skills and theoretical curiosity to exploring how AI systems can be more reliable and contextual across diverse applications.
+        @keyframes gradient-shift {
+            0%, 100% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+        }
 
-<div align="center">
-  <img src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif" alt="Coding GIF" width="400"/>
-</div>
+        .typing-animation {
+            font-size: 1.5rem;
+            margin-top: 20px;
+            text-align: center;
+            color: #4ecdc4;
+        }
 
-<br>
+        /* About Section */
+        .about-section {
+            padding: 100px 0;
+            display: flex;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            gap: 50px;
+        }
 
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=16&duration=2000&pause=500&color=FF6B6B&center=true&vCenter=true&width=500&lines=🤖+AI+Research+%26+Development;🔍+RAG+Systems+Expert;🧠+LLM+Fine-tuning;🚀+Building+AI+Agents;📊+Multimodal+AI+Systems" alt="Skills Animation" />
-</div>
+        .collaboration-animation {
+            flex: 1;
+            text-align: center;
+        }
 
-<br>
+        .collab-text {
+            font-size: 2rem;
+            margin-bottom: 30px;
+            color: #ff6b6b;
+            animation: pulse 2s infinite;
+        }
 
-## 🛠️ Skills & Technologies
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.7; }
+        }
 
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,docker,fastapi,mongodb,postgresql,git&theme=dark" alt="Tech Stack" />
-</div>
+        .quote {
+            font-style: italic;
+            font-size: 1.2rem;
+            color: #4ecdc4;
+            margin-bottom: 20px;
+        }
 
-### 🎯 Moving Skills Belt
+        .about-content {
+            flex: 1;
+            padding: 0 20px;
+        }
 
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=1500&pause=200&color=FF6B6B&center=true&vCenter=true&width=1000&lines=Python+🐍+PyTorch+🔥+TensorFlow+📊+Hugging+Face+🤗+LangChain+🦜;RAG+Systems+🔍+AI+Agents+🤖+LLMs+🧠+Multimodal+AI+📱+Vector+DBs+🗄️;FastAPI+⚡+Docker+🐳+MongoDB+🍃+PostgreSQL+🐘+Git+📝+Redis+🔴;Machine+Learning+🎯+Deep+Learning+🚀+NLP+📚+Computer+Vision+👁️+MLOps+⚙️;Python+🐍+PyTorch+🔥+TensorFlow+📊+Hugging+Face+🤗+LangChain+🦜" alt="Moving Skills Belt" />
-</div>
+        .about-content h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: #ff6b6b;
+        }
 
-### 🚀 Specialization Areas
+        .about-content p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            margin-bottom: 20px;
+            color: #ddd;
+        }
 
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=16&duration=2000&pause=300&color=4ECDC4&center=true&vCenter=true&width=900&lines=🔥+Retrieval+Augmented+Generation+(RAG)+Systems;🤖+Autonomous+AI+Agents+%26+Multi-Agent+Systems;🧠+Large+Language+Models+(LLMs)+%26+Fine-tuning;📊+Multimodal+AI+%26+Computer+Vision;🗄️+Vector+Databases+%26+Semantic+Search;⚡+Real-time+AI+Applications+%26+APIs;🔍+Information+Retrieval+%26+Knowledge+Graphs" alt="Specializations" />
-</div>
+        .gif-container {
+            text-align: center;
+            margin-top: 30px;
+        }
 
-### 🛠️ Tech Stack Carousel
+        .gif-container img {
+            max-width: 400px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(255, 107, 107, 0.3);
+        }
 
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=14&duration=1000&pause=100&color=96CEB4&center=true&vCenter=true&width=1200&lines=🐍+Python+|+🔥+PyTorch+|+📊+TensorFlow+|+🤗+Transformers+|+🦜+LangChain+|+⚡+FastAPI+|+🐳+Docker;🍃+MongoDB+|+🐘+PostgreSQL+|+🔴+Redis+|+📝+Git+|+☁️+AWS+|+🔧+Kubernetes+|+📈+MLflow;🎯+Scikit-learn+|+📊+Pandas+|+🔢+NumPy+|+📈+Matplotlib+|+🎨+Seaborn+|+⚡+Streamlit+|+📱+Gradio;🔍+Elasticsearch+|+🗄️+Pinecone+|+🧮+FAISS+|+📚+ChromaDB+|+🎭+OpenAI+|+🦙+Ollama+|+🌟+Anthropic" alt="Tech Stack" />
-</div>
+        /* Skills Moving Belt */
+        .skills-belt {
+            background: #111;
+            padding: 50px 0;
+            overflow: hidden;
+            position: relative;
+        }
 
-<br>
+        .skills-belt h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 50px;
+            color: #4ecdc4;
+        }
 
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=2000&pause=500&color=FF6B6B&center=true&vCenter=true&width=800&lines=🔥+RAG+Systems+%7C+AI+Agents+%7C+Large+Language+Models;⚡+Multimodal+AI+%7C+Vector+Databases+%7C+Retrieval+Engines;🚀+Python+%7C+PyTorch+%7C+TensorFlow+%7C+LangChain;💡+Research+%7C+Innovation+%7C+Collaboration" alt="Animated Skills" />
-</div>
+        .belt-container {
+            display: flex;
+            animation: scroll-left 20s linear infinite;
+        }
 
----
+        @keyframes scroll-left {
+            0% { transform: translateX(100%); }
+            100% { transform: translateX(-100%); }
+        }
 
-## 📊 GitHub Stats
+        .skill-item {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            margin: 0 15px;
+            padding: 15px 30px;
+            border-radius: 50px;
+            white-space: nowrap;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            min-width: 200px;
+            justify-content: center;
+        }
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=areejmehboob&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="GitHub Stats" />
-</div>
+        /* Skills and Technology Section */
+        .skills-tech {
+            padding: 100px 0;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
 
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=areejmehboob&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub Streak" />
-</div>
+        .skills-tech h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 50px;
+            color: #ff6b6b;
+        }
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=areejmehboob&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Top Languages" />
-</div>
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 50px;
+            padding: 0 20px;
+        }
 
----
+        .skill-category {
+            background: #111;
+            padding: 30px;
+            border-radius: 20px;
+            text-align: center;
+            border: 2px solid #333;
+            transition: transform 0.3s ease;
+        }
 
-## 🎓 Education
+        .skill-category:hover {
+            transform: translateY(-10px);
+            border-color: #4ecdc4;
+        }
 
-| **Institution** | **Degree** | **Location** | **Duration** |
-|---|---|---|---|
-| **University of Karachi** | BSCS | Karachi, Pakistan | January 2020 – January 2024 |
-| **Techmazone** | Applied Data Science with ML | Karachi, Pakistan | February 2021 – January 2022 |
+        .skill-category h3 {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            color: #4ecdc4;
+        }
 
----
+        .skill-badges {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+        }
 
-## 💼 Work Experience
+        .badge {
+            background: #333;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            border: 1px solid #555;
+        }
 
-### 🔬 NLP Researcher
-**Traversaal.ai** — *California, USA (Remote)* | *October 2024 – Present*
-- Working with evals, LLMs, Agents, and advanced retrieval systems
-- Developing cutting-edge agentic AI solutions
+        /* Table Styles */
+        .table-section {
+            padding: 80px 0;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
 
-### ⚙️ ML Engineer
-**KDYS LAB (Pvt) Ltd** — *Karachi, Pakistan (Onsite)* | *March 2024 – October 2024*
-- Worked on Agentic RAG with LangChain and LLM prompt wrapper APIs
-- Built sophisticated retrieval engines and multimodal systems
+        .table-section h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 50px;
+            color: #ff6b6b;
+        }
 
----
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: #111;
+            border-radius: 10px;
+            overflow: hidden;
+            margin-bottom: 50px;
+        }
 
-## 📝 Articles & Blog Posts
+        th, td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #333;
+        }
 
-| **Title** | **Link** |
-|---|---|
-| Enabling Agentic AI Through the Model Context Protocol (MCP) | [Read on Notion](https://www.notion.so/traversaal-ai/Enabling-Agentic-AI-Through-the-Model-Context-Protocol-MCP-1b59a2e5c4a6803b9df2fb9928944831) |
-| Multi-Modal Enterprise RAG Architecture from Scratch | [Read on Medium](https://ai.gopubby.com/multi-modal-enterprise-rag-architecture-from-scratch-a3a12df0d055) |
-| Initialization of Weights in Neural Networks | [Read on Medium](https://medium.com/@mehboobareej01/initialization-of-weights-in-neural-network-7243898988de) |
-| Understanding TF-IDF: Formulas and sklearn Implementation | [Read on Medium](https://medium.com/@mehboobareej01/understanding-tf-idf-formulas-and-value-returned-output-from-sklearn-library-483cb2b02efa) |
-| Feature Extraction Essentials for Image Similarity | [Read on Medium](https://medium.com/@mehboobareej01/feature-extraction-essentials-enhancing-image-similarity-with-feature-extraction-f46473869d3a) |
+        th {
+            background: #222;
+            color: #4ecdc4;
+            font-weight: bold;
+        }
 
----
+        tr:hover {
+            background: #222;
+        }
 
-## 🏆 Certifications
+        /* Certificate Belt */
+        .cert-belt {
+            background: #111;
+            padding: 80px 0;
+            overflow: hidden;
+        }
 
-| **Certification** | **Organization** | **Date** |
-|---|---|---|
-| Applied Data Science with Machine Learning | Techmazone | 2021-2022 |
+        .cert-belt h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 50px;
+            color: #4ecdc4;
+        }
 
----
+        .cert-container {
+            display: flex;
+            animation: scroll-right 15s linear infinite;
+        }
 
-## 🚀 Featured Projects
+        @keyframes scroll-right {
+            0% { transform: translateX(-100%); }
+            100% { transform: translateX(100%); }
+        }
 
-> *Projects section ready for your amazing work! Add your repositories here.*
+        .cert-item {
+            background: #222;
+            margin: 0 20px;
+            padding: 20px;
+            border-radius: 15px;
+            text-align: center;
+            min-width: 250px;
+            border: 2px solid #333;
+        }
 
-| **Project** | **Description** | **Tech Stack** | **Link** |
-|---|---|---|---|
-| *Your Project* | *Brief description* | *Technologies* | *[Link](#)* |
-| *Your Project* | *Brief description* | *Technologies* | *[Link](#)* |
+        .cert-item img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
 
----
+        /* Projects Section */
+        .projects {
+            padding: 100px 0;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
 
-## 📊 GitHub Stats
+        .projects h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 50px;
+            color: #ff6b6b;
+        }
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=areejmehboob&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="GitHub Stats" />
-</div>
+        .project-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+            padding: 0 20px;
+        }
 
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=areejmehboob&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub Streak" />
-</div>
+        .project-card {
+            background: #111;
+            border-radius: 20px;
+            padding: 30px;
+            border: 2px solid #333;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=areejmehboob&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Top Languages" />
-</div>
+        .project-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(45deg, transparent, rgba(255, 107, 107, 0.1), transparent);
+            transition: left 0.5s ease;
+        }
 
----
+        .project-card:hover::before {
+            left: 100%;
+        }
 
-## 🔗 Connect With Me
+        .project-card:hover {
+            transform: translateY(-10px);
+            border-color: #ff6b6b;
+        }
 
-<div align="center">
+        .project-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            color: #4ecdc4;
+        }
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white)](https://areejmehboob.github.io)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/areej-mehboob-396b7a207/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mehboobareej01@gmail.com)
-[![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@mehboobareej01)
+        .project-card p {
+            color: #ddd;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
 
-</div>
+        .tech-stack {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 20px;
+        }
 
----
+        .tech-tag {
+            background: #333;
+            padding: 5px 12px;
+            border-radius: 15px;
+            font-size: 0.8rem;
+            color: #4ecdc4;
+        }
 
-<div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,1,2&height=120&section=footer"/>
-</div>
+        .project-link {
+            display: inline-block;
+            background: linear-gradient(135deg, #ff6b6b, #4ecdc4);
+            color: #000;
+            padding: 10px 20px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: transform 0.3s ease;
+        }
 
-<div align="center">
-  🙏 <h3>Thanks for visiting! Let's build the future of AI together! 🚀</h3>
-  <img src="https://komarev.com/ghpvc/?username=areejmehboob&label=Profile%20Views&color=blueviolet&style=flat" alt="Profile Views" />
-</div>
+        .project-link:hover {
+            transform: scale(1.05);
+        }
+
+        /* Contact Section */
+        .contact {
+            padding: 100px 0;
+            text-align: center;
+            background: #111;
+        }
+
+        .contact h2 {
+            font-size: 2.5rem;
+            margin-bottom: 50px;
+            color: #ff6b6b;
+        }
+
+        .contact-links {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        .contact-link {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #fff;
+            padding: 15px 30px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .contact-link:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(255, 107, 107, 0.3);
+        }
+
+        /* Footer */
+        .footer {
+            background: #000;
+            padding: 50px 0;
+            text-align: center;
+            border-top: 1px solid #333;
+        }
+
+        .footer h3 {
+            color: #4ecdc4;
+            margin-bottom: 20px;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .name-animation {
+                font-size: 2.5rem;
+            }
+            
+            .about-section {
+                flex-direction: column;
+                padding: 50px 20px;
+            }
+            
+            .skills-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .project-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .contact-links {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header with Animated Name -->
+    <section class="header">
+        <div>
+            <h1 class="name-animation">Areej Mehboob</h1>
+            <div class="typing-animation">
+                <span id="typing-text">NLP Researcher | LLMs | Retrieval Systems</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section">
+        <div class="collaboration-animation">
+            <h2 class="collab-text">🤝 Open to Collaboration</h2>
+            <p class="quote">💡 "The best way to predict the future is to create it." - Alan Kay</p>
+            <div class="gif-container">
+                <img src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif" alt="Coding Animation">
+            </div>
+        </div>
+        <div class="about-content">
+            <h2>👩‍💻 About Me</h2>
+            <p>I'm an <strong>NLP researcher</strong> with a background in machine learning engineering and a BSCS in Computer Science, currently focused on advancing Retrieval-Augmented Generation (RAG) systems, AI agents, and large language models (both traditional and multimodal).</p>
+            <p>My work combines research and application development, building sophisticated retrieval engines, agentic RAG architectures, and autonomous AI agents while also creating practical applications. I have extensive hands-on experience in agent systems development and expertise in LLM evaluation methodologies and fine-tuning.</p>
+        </div>
+    </section>
+
+    <!-- Skills Moving Belt -->
+    <section class="skills-belt">
+        <h2>🔥 Core Expertise</h2>
+        <div class="belt-container">
+            <div class="skill-item">🤖 RAG Systems</div>
+            <div class="skill-item">🧠 AI Agents</div>
+            <div class="skill-item">📊 LLMs</div>
+            <div class="skill-item">🔍 Multimodal AI</div>
+            <div class="skill-item">⚡ Vector Databases</div>
+            <div class="skill-item">🚀 Retrieval Engines</div>
+            <div class="skill-item">🎯 LLM Evaluation</div>
+            <div class="skill-item">🔧 Fine-tuning</div>
+        </div>
+    </section>
+
+    <!-- Skills and Technology -->
+    <section class="skills-tech">
+        <h2>🛠️ Skills & Technologies</h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h3>🧠 AI/ML</h3>
+                <div class="skill-badges">
+                    <span class="badge">Python</span>
+                    <span class="badge">PyTorch</span>
+                    <span class="badge">TensorFlow</span>
+                    <span class="badge">🤗 Hugging Face</span>
+                    <span class="badge">🦜 LangChain</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>🤖 Specializations</h3>
+                <div class="skill-badges">
+                    <span class="badge">RAG Systems</span>
+                    <span class="badge">AI Agents</span>
+                    <span class="badge">LLMs</span>
+                    <span class="badge">Multimodal AI</span>
+                    <span class="badge">Vector DBs</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>🔧 Tools</h3>
+                <div class="skill-badges">
+                    <span class="badge">FastAPI</span>
+                    <span class="badge">Docker</span>
+                    <span class="badge">PostgreSQL</span>
+                    <span class="badge">Git</span>
+                    <span class="badge">Linux</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education -->
+    <section class="table-section">
+        <h2>🎓 Education</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Institution</th>
+                    <th>Degree</th>
+                    <th>Location</th>
+                    <th>Duration</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>University of Karachi</td>
+                    <td>BSCS</td>
+                    <td>Karachi, Pakistan</td>
+                    <td>January 2020 – January 2024</td>
+                </tr>
+                <tr>
+                    <td>Techmazone</td>
+                    <td>Applied Data Science with Machine Learning</td>
+                    <td>Karachi, Pakistan</td>
+                    <td>February 2021 – January 2022</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Work Experience -->
+    <section class="table-section">
+        <h2>💼 Work Experience</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Position</th>
+                    <th>Company</th>
+                    <th>Location</th>
+                    <th>Duration</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>🔬 NLP Researcher</td>
+                    <td>Traversaal.ai</td>
+                    <td>California, USA (Remote)</td>
+                    <td>October 2024 – Present</td>
+                    <td>Working with evals, LLMs, Agents, and advanced retrieval systems</td>
+                </tr>
+                <tr>
+                    <td>⚙️ ML Engineer</td>
+                    <td>KDYS LAB (Pvt) Ltd</td>
+                    <td>Karachi, Pakistan (Onsite)</td>
+                    <td>March 2024 – October 2024</td>
+                    <td>Worked on Agentic RAG with LangChain and LLM prompt wrapper APIs</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Blog Posts -->
+    <section class="table-section">
+        <h2>📝 Articles & Blog Posts</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Platform</th>
+                    <th>Link</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Enabling Agentic AI Through the Model Context Protocol (MCP)</td>
+                    <td>Notion</td>
+                    <td><a href="https://www.notion.so/traversaal-ai/Enabling-Agentic-AI-Through-the-Model-Context-Protocol-MCP-1b59a2e5c4a6803b9df2fb9928944831" target="_blank" style="color: #4ecdc4;">Read Article</a></td>
+                </tr>
+                <tr>
+                    <td>Multi-Modal Enterprise RAG Architecture from Scratch</td>
+                    <td>Medium</td>
+                    <td><a href="https://ai.gopubby.com/multi-modal-enterprise-rag-architecture-from-scratch-a3a12df0d055" target="_blank" style="color: #4ecdc4;">Read Article</a></td>
+                </tr>
+                <tr>
+                    <td>Initialization of Weights in Neural Networks</td>
+                    <td>Medium</td>
+                    <td><a href="https://medium.com/@mehboobareej01/initialization-of-weights-in-neural-network-7243898988de" target="_blank" style="color: #4ecdc4;">Read Article</a></td>
+                </tr>
+                <tr>
+                    <td>Understanding TF-IDF: Formulas and sklearn Implementation</td>
+                    <td>Medium</td>
+                    <td><a href="https://medium.com/@mehboobareej01/understanding-tf-idf-formulas-and-value-returned-output-from-sklearn-library-483cb2b02efa" target="_blank" style="color: #4ecdc4;">Read Article</a></td>
+                </tr>
+                <tr>
+                    <td>Feature Extraction Essentials for Image Similarity</td>
+                    <td>Medium</td>
+                    <td><a href="https://medium.com/@mehboobareej01/feature-extraction-essentials-enhancing-image-similarity-with-feature-extraction-f46473869d3a" target="_blank" style="color: #4ecdc4;">Read Article</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Certifications Moving Belt -->
+    <section class="cert-belt">
+        <h2>🏆 Certifications</h2>
+        <div class="cert-container">
+            <div class="cert-item">
+                <img src="https://via.placeholder.com/100x100/4ecdc4/ffffff?text=ML" alt="ML Certificate">
+                <h4>Applied Data Science with ML</h4>
+                <p>Techmazone</p>
+                <p>2021-2022</p>
+            </div>
+            <div class="cert-item">
+                <img src="https://via.placeholder.com/100x100/ff6b6b/ffffff?text=AI" alt="AI Certificate">
+                <h4>AI Fundamentals</h4>
+                <p>Tech Institute</p>
+                <p>2023</p>
+            </div>
+            <div class="cert-item">
+                <img src="https://via.placeholder.com/100x100/45b7d1/ffffff?text=DL" alt="Deep Learning Certificate">
+                <h4>Deep Learning Specialization</h4>
+                <p>Online Academy</p>
+                <p>2024</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Projects -->
+    <section class="projects">
+        <h2>🚀 Featured Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>🤖 MultiAgenticSystem-crewAI</h3>
+                <p>A sophisticated multi-agent system built with CrewAI framework, featuring autonomous AI agents that collaborate to solve complex tasks through intelligent coordination and communication.</p>
+                <div class="tech-stack">
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">CrewAI</span>
+                    <span class="tech-tag">LangChain</span>
+                    <span class="tech-tag">AI Agents</span>
+                </div>
+                <a href="https://github.com/Areej17-01/MultiAgenticSystem-crewAI-" class="project-link" target="_blank">View Project</a>
+            </div>
+            <div class="project-card">
+                <h3>🔍 Enterprise RAG System</h3>
+                <p>A comprehensive multimodal RAG architecture designed for enterprise applications, featuring advanced retrieval mechanisms and support for various document types.</p>
+                <div class="tech-stack">
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">LangChain</span>
+                    <span class="tech-tag">Vector DB</span>
+                    <span class="tech-tag">FastAPI</span>
+                </div>
+                <a href="#" class="project-link">Coming Soon</a>
+            </div>
+            <div class="project-card">
+                <h3>🧠 LLM Evaluation Framework</h3>
+                <p>A robust framework for evaluating large language models with comprehensive metrics, benchmarks, and automated testing pipelines for AI system performance.</p>
+                <div class="tech-stack">
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">PyTorch</span>
+                    <span class="tech-tag">Transformers</span>
+                    <span class="tech-tag">Evaluation</span>
+                </div>
+                <a href="#" class="project-link">Coming Soon</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact">
+        <h2>🔗 Let's Connect</h2>
+        <div class="contact-links">
+            <a href="https://areejmehboob.github.io" class="contact-link" target="_blank">
+                🌐 Portfolio
+            </a>
+            <a href="https://www.linkedin.com/in/areej-mehboob-396b7a207/" class="contact-link" target="_blank">
+                💼 LinkedIn
+            </a>
+            <a href="mailto:mehboobareej01@gmail.com" class="contact-link">
+                📧 Email
+            </a>
+            <a href="https://medium.com/@mehboobareej01" class="contact-link" target="_blank">
+                📝 Medium
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <h3>🙏 Thanks for visiting! Let's build the future of AI together! 🚀</h3>
+        <p style="color: #666; margin-top: 10px;">© 2024 Areej Mehboob. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Typing animation
+        const texts = [
+            "NLP Researcher | LLMs | Retrieval Systems",
+            "Building the Future of AI ✨",
+            "Open to Research & Collaboration!"
+        ];
+        let textIndex = 0;
+        let charIndex = 0;
+        let isDeleting = false;
+        const typingElement = document.getElementById('typing-text');
+
+        function typeText() {
+            const currentText = texts[textIndex];
+            
+            if (isDeleting) {
+                typingElement.textContent = currentText.substring(0, charIndex - 1);
+                charIndex--;
+            } else {
+                typingElement.textContent = currentText.substring(0, charIndex + 1);
+                charIndex++;
+            }
+
+            if (!isDeleting && charIndex === currentText.length) {
+                setTimeout(() => isDeleting = true, 1000);
+            } else if (isDeleting && charIndex === 0) {
+                isDeleting = false;
+                textIndex = (textIndex + 1) % texts.length;
+            }
+
+            const speed = isDeleting ? 50 : 100;
+            setTimeout(typeText, speed);
+        }
+
+        typeText();
+
+        // Smooth scrolling for any internal links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>

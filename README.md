@@ -852,4 +852,85 @@
             <div class="skill-category">
                 <h3>🔧 Tools</h3>
                 <div class="skill-badges">
-                    <span class
+                    <span class="badge">FastAPI</span>
+                    <span class="badge">Docker</span>
+                    <span class="badge">PostgreSQL</span>
+                    <span class="badge">Git</span>
+                    <span class="badge">Linux</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact -->
+    <section class="contact">
+        <h2>🔗 Let's Connect</h2>
+        <div class="contact-links">
+            <a href="https://areejmehboob.github.io" class="contact-link" target="_blank">
+                🌐 Portfolio
+            </a>
+            <a href="https://www.linkedin.com/in/areej-mehboob-396b7a207/" class="contact-link" target="_blank">
+                💼 LinkedIn
+            </a>
+            <a href="mailto:mehboobareej01@gmail.com" class="contact-link">
+                📧 Email
+            </a>
+            <a href="https://medium.com/@mehboobareej01" class="contact-link" target="_blank">
+                📝 Medium
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <h3>🙏 Thanks for visiting! Let's build the future of AI together! 🚀</h3>
+        <p style="color: #666; margin-top: 10px;">© 2024 Areej Mehboob. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Typing animation
+        const texts = [
+            "NLP Researcher | LLMs | Retrieval Systems",
+            "Building the Future of AI ✨",
+            "Open to Research & Collaboration!"
+        ];
+        let textIndex = 0;
+        let charIndex = 0;
+        let isDeleting = false;
+        const typingElement = document.getElementById('typing-text');
+
+        function typeText() {
+            const currentText = texts[textIndex];
+            
+            if (isDeleting) {
+                typingElement.textContent = currentText.substring(0, charIndex - 1);
+                charIndex--;
+            } else {
+                typingElement.textContent = currentText.substring(0, charIndex + 1);
+                charIndex++;
+            }
+
+            if (!isDeleting && charIndex === currentText.length) {
+                setTimeout(() => isDeleting = true, 1000);
+            } else if (isDeleting && charIndex === 0) {
+                isDeleting = false;
+                textIndex = (textIndex + 1) % texts.length;
+            }
+
+            const speed = isDeleting ? 50 : 100;
+            setTimeout(typeText, speed);
+        }
+
+        typeText();
+
+        // Smooth scrolling for any internal links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>

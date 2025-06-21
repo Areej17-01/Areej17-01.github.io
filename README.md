@@ -717,6 +717,46 @@
             </tbody>
         </table>
     </section>
+    
+<!-- Featured Projects -->
+    <section class="projects">
+        <h2>🚀 Featured Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>🤖 MultiAgenticSystem-crewAI</h3>
+                <p>A sophisticated multi-agent system built with CrewAI framework, featuring autonomous AI agents that collaborate to solve complex tasks through intelligent coordination and communication.</p>
+                <div class="tech-stack">
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">CrewAI</span>
+                    <span class="tech-tag">LangChain</span>
+                    <span class="tech-tag">AI Agents</span>
+                </div>
+                <a href="https://github.com/Areej17-01/MultiAgenticSystem-crewAI-" class="project-link" target="_blank">View Project</a>
+            </div>
+            <div class="project-card">
+                <h3>🔍 Enterprise RAG System</h3>
+                <p>A comprehensive multimodal RAG architecture designed for enterprise applications, featuring advanced retrieval mechanisms and support for various document types.</p>
+                <div class="tech-stack">
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">LangChain</span>
+                    <span class="tech-tag">Vector DB</span>
+                    <span class="tech-tag">FastAPI</span>
+                </div>
+                <a href="#" class="project-link">Coming Soon</a>
+            </div>
+            <div class="project-card">
+                <h3>🧠 LLM Evaluation Framework</h3>
+                <p>A robust framework for evaluating large language models with comprehensive metrics, benchmarks, and automated testing pipelines for AI system performance.</p>
+                <div class="tech-stack">
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">PyTorch</span>
+                    <span class="tech-tag">Transformers</span>
+                    <span class="tech-tag">Evaluation</span>
+                </div>
+                <a href="#" class="project-link">Coming Soon</a>
+            </div>
+        </div>
+    </section>
 
     <!-- Interactive Articles Section -->
     <section class="articles-section">
@@ -785,46 +825,7 @@
         </div>
     </section>
 
-    <!-- Featured Projects -->
-    <section class="projects">
-        <h2>🚀 Featured Projects</h2>
-        <div class="project-grid">
-            <div class="project-card">
-                <h3>🤖 MultiAgenticSystem-crewAI</h3>
-                <p>A sophisticated multi-agent system built with CrewAI framework, featuring autonomous AI agents that collaborate to solve complex tasks through intelligent coordination and communication.</p>
-                <div class="tech-stack">
-                    <span class="tech-tag">Python</span>
-                    <span class="tech-tag">CrewAI</span>
-                    <span class="tech-tag">LangChain</span>
-                    <span class="tech-tag">AI Agents</span>
-                </div>
-                <a href="https://github.com/Areej17-01/MultiAgenticSystem-crewAI-" class="project-link" target="_blank">View Project</a>
-            </div>
-            <div class="project-card">
-                <h3>🔍 Enterprise RAG System</h3>
-                <p>A comprehensive multimodal RAG architecture designed for enterprise applications, featuring advanced retrieval mechanisms and support for various document types.</p>
-                <div class="tech-stack">
-                    <span class="tech-tag">Python</span>
-                    <span class="tech-tag">LangChain</span>
-                    <span class="tech-tag">Vector DB</span>
-                    <span class="tech-tag">FastAPI</span>
-                </div>
-                <a href="#" class="project-link">Coming Soon</a>
-            </div>
-            <div class="project-card">
-                <h3>🧠 LLM Evaluation Framework</h3>
-                <p>A robust framework for evaluating large language models with comprehensive metrics, benchmarks, and automated testing pipelines for AI system performance.</p>
-                <div class="tech-stack">
-                    <span class="tech-tag">Python</span>
-                    <span class="tech-tag">PyTorch</span>
-                    <span class="tech-tag">Transformers</span>
-                    <span class="tech-tag">Evaluation</span>
-                </div>
-                <a href="#" class="project-link">Coming Soon</a>
-            </div>
-        </div>
-    </section>
-
+    
     <!-- Skills and Technology -->
     <section class="skills-tech">
         <h2>🛠️ Skills & Technologies</h2>

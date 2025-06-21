@@ -646,25 +646,33 @@
 </head>
 <body>
     <!-- Header with Animated Name -->
-    <section class="header">
-        <div>
-            <h1 class="name-animation">Areej Mehboob</h1>
-            <div class="typing-animation">
-                <span id="typing-text">NLP Researcher | LLMs | Retrieval Systems</span>
-            </div>
-            <div class="contact-info">
-                <a href="mailto:mehboobareej01@gmail.com" class="contact-link-header">
-                    ✉️ mehboobareej01@gmail.com
-                </a>
-                <a href="https://www.linkedin.com/in/areej-mehboob-396b7a207/" class="contact-link-header" target="_blank">
-                    🔗 LinkedIn
-                </a>
-                <a href="https://github.com/Areej17-01" class="contact-link-header" target="_blank">
-                    💻 GitHub
-                </a>
-            </div>
+   <!-- Header with Animated Name -->
+<section class="header">
+    <div>
+        <h1 class="name-animation">Areej Mehboob</h1>
+        <div class="typing-animation">
+            <span id="typing-text">NLP Researcher | LLMs | Retrieval Systems</span>
         </div>
-    </section>
+        <div class="contact-info">
+            <a href="mailto:mehboobareej01@gmail.com" class="contact-link-header">
+                ✉️ mehboobareej01@gmail.com
+            </a>
+            <a href="https://www.linkedin.com/in/areej-mehboob-396b7a207/" class="contact-link-header" target="_blank">
+                🔗 LinkedIn
+            </a>
+            <a href="https://github.com/Areej17-01" class="contact-link-header" target="_blank">
+                💻 GitHub
+            </a>
+        </div>
+        <div class="cv-download">
+            <a href="https://drive.google.com/uc?export=download&id=16Ma9jEKdb_2ONF6Oz1RE-W1Z5naS0SYQ" 
+               class="cv-button" 
+               download="Areej_Mehboob_CV.pdf">
+                📄 Download CV
+            </a>
+        </div>
+    </div>
+</section>
 
     <!-- About Section -->
     <section class="about-section">

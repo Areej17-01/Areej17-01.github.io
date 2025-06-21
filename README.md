@@ -1,4 +1,3 @@
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -70,7 +69,7 @@
 
         /* About Section */
         .about-section {
-            padding: 100px 0;
+            padding: 60px 0;
             display: flex;
             align-items: center;
             max-width: 1200px;
@@ -134,7 +133,7 @@
         /* Skills Moving Belt */
         .skills-belt {
             background: #111;
-            padding: 50px 0;
+            padding: 40px 0;
             overflow: hidden;
             position: relative;
         }
@@ -142,7 +141,7 @@
         .skills-belt h2 {
             text-align: center;
             font-size: 2.5rem;
-            margin-bottom: 50px;
+            margin-bottom: 40px;
             color: #4ecdc4;
         }
 
@@ -172,7 +171,7 @@
 
         /* Skills and Technology Section */
         .skills-tech {
-            padding: 100px 0;
+            padding: 60px 0;
             max-width: 1200px;
             margin: 0 auto;
         }
@@ -180,14 +179,14 @@
         .skills-tech h2 {
             text-align: center;
             font-size: 2.5rem;
-            margin-bottom: 50px;
+            margin-bottom: 40px;
             color: #ff6b6b;
         }
 
         .skills-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 50px;
+            gap: 30px;
             padding: 0 20px;
         }
 
@@ -226,9 +225,9 @@
             border: 1px solid #555;
         }
 
-        /* Table Styles */
+        /* Compact Table Styles */
         .table-section {
-            padding: 80px 0;
+            padding: 40px 0;
             max-width: 1200px;
             margin: 0 auto;
         }
@@ -236,7 +235,7 @@
         .table-section h2 {
             text-align: center;
             font-size: 2.5rem;
-            margin-bottom: 50px;
+            margin-bottom: 30px;
             color: #ff6b6b;
         }
 
@@ -246,11 +245,11 @@
             background: #111;
             border-radius: 10px;
             overflow: hidden;
-            margin-bottom: 50px;
+            margin-bottom: 30px;
         }
 
         th, td {
-            padding: 15px;
+            padding: 12px 15px;
             text-align: left;
             border-bottom: 1px solid #333;
         }
@@ -265,17 +264,144 @@
             background: #222;
         }
 
+        /* Interactive Articles Section */
+        .articles-section {
+            padding: 60px 0;
+            background: #111;
+            overflow: hidden;
+        }
+
+        .articles-section h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 50px;
+            color: #4ecdc4;
+        }
+
+        .articles-container {
+            display: flex;
+            animation: scroll-articles 25s linear infinite;
+            gap: 30px;
+        }
+
+        @keyframes scroll-articles {
+            0% { transform: translateX(100%); }
+            100% { transform: translateX(-100%); }
+        }
+
+        .article-card {
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            border-radius: 20px;
+            padding: 25px;
+            min-width: 350px;
+            border: 2px solid #333;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+            cursor: pointer;
+        }
+
+        .article-card:hover {
+            transform: translateY(-10px);
+            border-color: #4ecdc4;
+            animation-play-state: paused;
+        }
+
+        .article-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(45deg, transparent, rgba(78, 205, 196, 0.1), transparent);
+            transition: left 0.5s ease;
+        }
+
+        .article-card:hover::before {
+            left: 100%;
+        }
+
+        .article-image {
+            width: 100%;
+            height: 150px;
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            border-radius: 15px;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .article-image::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(45deg, rgba(255,255,255,0.1), transparent);
+            animation: shimmer 2s infinite;
+        }
+
+        @keyframes shimmer {
+            0% { transform: translateX(-100%); }
+            100% { transform: translateX(100%); }
+        }
+
+        .article-title {
+            font-size: 1.3rem;
+            color: #4ecdc4;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        .article-platform {
+            color: #ff6b6b;
+            font-size: 0.9rem;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .article-description {
+            color: #ddd;
+            font-size: 0.95rem;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .article-link {
+            background: linear-gradient(135deg, #4ecdc4, #45b7d1);
+            color: #000;
+            padding: 8px 16px;
+            border-radius: 20px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 0.9rem;
+            transition: transform 0.3s ease;
+            display: inline-block;
+        }
+
+        .article-link:hover {
+            transform: scale(1.05);
+        }
+
         /* Certificate Belt */
         .cert-belt {
             background: #111;
-            padding: 80px 0;
+            padding: 50px 0;
             overflow: hidden;
         }
 
         .cert-belt h2 {
             text-align: center;
             font-size: 2.5rem;
-            margin-bottom: 50px;
+            margin-bottom: 40px;
             color: #4ecdc4;
         }
 
@@ -309,7 +435,7 @@
 
         /* Projects Section */
         .projects {
-            padding: 100px 0;
+            padding: 60px 0;
             max-width: 1200px;
             margin: 0 auto;
         }
@@ -317,7 +443,7 @@
         .projects h2 {
             text-align: center;
             font-size: 2.5rem;
-            margin-bottom: 50px;
+            margin-bottom: 40px;
             color: #ff6b6b;
         }
 
@@ -402,14 +528,14 @@
 
         /* Contact Section */
         .contact {
-            padding: 100px 0;
+            padding: 60px 0;
             text-align: center;
             background: #111;
         }
 
         .contact h2 {
             font-size: 2.5rem;
-            margin-bottom: 50px;
+            margin-bottom: 40px;
             color: #ff6b6b;
         }
 
@@ -441,7 +567,7 @@
         /* Footer */
         .footer {
             background: #000;
-            padding: 50px 0;
+            padding: 40px 0;
             text-align: center;
             border-top: 1px solid #333;
         }
@@ -459,7 +585,7 @@
             
             .about-section {
                 flex-direction: column;
-                padding: 50px 20px;
+                padding: 40px 20px;
             }
             
             .skills-grid {
@@ -473,6 +599,18 @@
             .contact-links {
                 flex-direction: column;
                 align-items: center;
+            }
+
+            .article-card {
+                min-width: 280px;
+            }
+
+            .table-section {
+                padding: 30px 0;
+            }
+
+            .projects {
+                padding: 40px 0;
             }
         }
     </style>
@@ -580,45 +718,46 @@
         </table>
     </section>
 
-    <!-- Blog Posts -->
-    <section class="table-section">
+    <!-- Interactive Articles Section -->
+    <section class="articles-section">
         <h2>📝 Articles & Blog Posts</h2>
-        <table>
-            <thead>
-                <tr>
-                    <th>Title</th>
-                    <th>Platform</th>
-                    <th>Link</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Enabling Agentic AI Through the Model Context Protocol (MCP)</td>
-                    <td>Notion</td>
-                    <td><a href="https://www.notion.so/traversaal-ai/Enabling-Agentic-AI-Through-the-Model-Context-Protocol-MCP-1b59a2e5c4a6803b9df2fb9928944831" target="_blank" style="color: #4ecdc4;">Read Article</a></td>
-                </tr>
-                <tr>
-                    <td>Multi-Modal Enterprise RAG Architecture from Scratch</td>
-                    <td>Medium</td>
-                    <td><a href="https://ai.gopubby.com/multi-modal-enterprise-rag-architecture-from-scratch-a3a12df0d055" target="_blank" style="color: #4ecdc4;">Read Article</a></td>
-                </tr>
-                <tr>
-                    <td>Initialization of Weights in Neural Networks</td>
-                    <td>Medium</td>
-                    <td><a href="https://medium.com/@mehboobareej01/initialization-of-weights-in-neural-network-7243898988de" target="_blank" style="color: #4ecdc4;">Read Article</a></td>
-                </tr>
-                <tr>
-                    <td>Understanding TF-IDF: Formulas and sklearn Implementation</td>
-                    <td>Medium</td>
-                    <td><a href="https://medium.com/@mehboobareej01/understanding-tf-idf-formulas-and-value-returned-output-from-sklearn-library-483cb2b02efa" target="_blank" style="color: #4ecdc4;">Read Article</a></td>
-                </tr>
-                <tr>
-                    <td>Feature Extraction Essentials for Image Similarity</td>
-                    <td>Medium</td>
-                    <td><a href="https://medium.com/@mehboobareej01/feature-extraction-essentials-enhancing-image-similarity-with-feature-extraction-f46473869d3a" target="_blank" style="color: #4ecdc4;">Read Article</a></td>
-                </tr>
-            </tbody>
-        </table>
+        <div class="articles-container">
+            <div class="article-card">
+                <div class="article-image">🤖</div>
+                <div class="article-title">Enabling Agentic AI Through the Model Context Protocol (MCP)</div>
+                <div class="article-platform">📋 Notion</div>
+                <div class="article-description">Exploring how MCP enables seamless AI agent integration and communication across different platforms and systems.</div>
+                <a href="https://www.notion.so/traversaal-ai/Enabling-Agentic-AI-Through-the-Model-Context-Protocol-MCP-1b59a2e5c4a6803b9df2fb9928944831" target="_blank" class="article-link">Read Article</a>
+            </div>
+            <div class="article-card">
+                <div class="article-image">🔍</div>
+                <div class="article-title">Multi-Modal Enterprise RAG Architecture from Scratch</div>
+                <div class="article-platform">📝 Medium</div>
+                <div class="article-description">A comprehensive guide to building scalable multimodal RAG systems for enterprise applications with advanced retrieval mechanisms.</div>
+                <a href="https://ai.gopubby.com/multi-modal-enterprise-rag-architecture-from-scratch-a3a12df0d055" target="_blank" class="article-link">Read Article</a>
+            </div>
+            <div class="article-card">
+                <div class="article-image">⚡</div>
+                <div class="article-title">Initialization of Weights in Neural Networks</div>
+                <div class="article-platform">📝 Medium</div>
+                <div class="article-description">Deep dive into weight initialization techniques and their impact on neural network training performance and convergence.</div>
+                <a href="https://medium.com/@mehboobareej01/initialization-of-weights-in-neural-network-7243898988de" target="_blank" class="article-link">Read Article</a>
+            </div>
+            <div class="article-card">
+                <div class="article-image">📊</div>
+                <div class="article-title">Understanding TF-IDF: Formulas and sklearn Implementation</div>
+                <div class="article-platform">📝 Medium</div>
+                <div class="article-description">Complete explanation of TF-IDF algorithm with mathematical formulas and practical implementation using scikit-learn.</div>
+                <a href="https://medium.com/@mehboobareej01/understanding-tf-idf-formulas-and-value-returned-output-from-sklearn-library-483cb2b02efa" target="_blank" class="article-link">Read Article</a>
+            </div>
+            <div class="article-card">
+                <div class="article-image">🖼️</div>
+                <div class="article-title">Feature Extraction Essentials for Image Similarity</div>
+                <div class="article-platform">📝 Medium</div>
+                <div class="article-description">Comprehensive guide to feature extraction techniques for enhancing image similarity detection and computer vision applications.</div>
+                <a href="https://medium.com/@mehboobareej01/feature-extraction-essentials-enhancing-image-similarity-with-feature-extraction-f46473869d3a" target="_blank" class="article-link">Read Article</a>
+            </div>
+        </div>
     </section>
 
     <!-- Certifications Moving Belt -->
@@ -685,7 +824,8 @@
             </div>
         </div>
     </section>
- <!-- Skills and Technology -->
+
+    <!-- Skills and Technology -->
     <section class="skills-tech">
         <h2>🛠️ Skills & Technologies</h2>
         <div class="skills-grid">
@@ -712,85 +852,4 @@
             <div class="skill-category">
                 <h3>🔧 Tools</h3>
                 <div class="skill-badges">
-                    <span class="badge">FastAPI</span>
-                    <span class="badge">Docker</span>
-                    <span class="badge">PostgreSQL</span>
-                    <span class="badge">Git</span>
-                    <span class="badge">Linux</span>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Contact -->
-    <section class="contact">
-        <h2>🔗 Let's Connect</h2>
-        <div class="contact-links">
-            <a href="https://areejmehboob.github.io" class="contact-link" target="_blank">
-                🌐 Portfolio
-            </a>
-            <a href="https://www.linkedin.com/in/areej-mehboob-396b7a207/" class="contact-link" target="_blank">
-                💼 LinkedIn
-            </a>
-            <a href="mailto:mehboobareej01@gmail.com" class="contact-link">
-                📧 Email
-            </a>
-            <a href="https://medium.com/@mehboobareej01" class="contact-link" target="_blank">
-                📝 Medium
-            </a>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <h3>🙏 Thanks for visiting! Let's build the future of AI together! 🚀</h3>
-        <p style="color: #666; margin-top: 10px;">© 2024 Areej Mehboob. All rights reserved.</p>
-    </footer>
-
-    <script>
-        // Typing animation
-        const texts = [
-            "NLP Researcher | LLMs | Retrieval Systems",
-            "Building the Future of AI ✨",
-            "Open to Research & Collaboration!"
-        ];
-        let textIndex = 0;
-        let charIndex = 0;
-        let isDeleting = false;
-        const typingElement = document.getElementById('typing-text');
-
-        function typeText() {
-            const currentText = texts[textIndex];
-            
-            if (isDeleting) {
-                typingElement.textContent = currentText.substring(0, charIndex - 1);
-                charIndex--;
-            } else {
-                typingElement.textContent = currentText.substring(0, charIndex + 1);
-                charIndex++;
-            }
-
-            if (!isDeleting && charIndex === currentText.length) {
-                setTimeout(() => isDeleting = true, 1000);
-            } else if (isDeleting && charIndex === 0) {
-                isDeleting = false;
-                textIndex = (textIndex + 1) % texts.length;
-            }
-
-            const speed = isDeleting ? 50 : 100;
-            setTimeout(typeText, speed);
-        }
-
-        typeText();
-
-        // Smooth scrolling for any internal links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth'
-                });
-            });
-        });
-    </script>
-</body>
-</html>
+                    <span class

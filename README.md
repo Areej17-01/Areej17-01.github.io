@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,1,2&height=180&section=header&text=Areej%20Mehboob&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32"/>
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0d1117&height=180&section=header&text=Areej%20Mehboob&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32"/>
 </div>
 
 <div align="center">
@@ -32,31 +32,48 @@ I'm an NLP researcher with a background in machine learning engineering and a BS
 
 ## 🛠️ Skills & Technologies
 
-### 🧠 AI/ML
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/🤗_Hugging_Face-FFD21E?style=for-the-badge&logoColor=black)
-![LangChain](https://img.shields.io/badge/🦜_LangChain-1C3C3C?style=for-the-badge&logoColor=white)
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,docker,fastapi,mongodb,postgresql,git&theme=dark" alt="Tech Stack" />
+</div>
 
-### 🤖 Specializations
-![RAG Systems](https://img.shields.io/badge/RAG_Systems-FF6B6B?style=for-the-badge&logoColor=white)
-![AI Agents](https://img.shields.io/badge/AI_Agents-4ECDC4?style=for-the-badge&logoColor=white)
-![LLMs](https://img.shields.io/badge/LLMs-45B7D1?style=for-the-badge&logoColor=white)
-![Multimodal AI](https://img.shields.io/badge/Multimodal_AI-96CEB4?style=for-the-badge&logoColor=white)
-![Vector DBs](https://img.shields.io/badge/Vector_DBs-FFEAA7?style=for-the-badge&logoColor=black)
+### 🎯 Moving Skills Belt
 
-### 🧰 Tools & Frameworks
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=1500&pause=200&color=FF6B6B&center=true&vCenter=true&width=1000&lines=Python+🐍+PyTorch+🔥+TensorFlow+📊+Hugging+Face+🤗+LangChain+🦜;RAG+Systems+🔍+AI+Agents+🤖+LLMs+🧠+Multimodal+AI+📱+Vector+DBs+🗄️;FastAPI+⚡+Docker+🐳+MongoDB+🍃+PostgreSQL+🐘+Git+📝+Redis+🔴;Machine+Learning+🎯+Deep+Learning+🚀+NLP+📚+Computer+Vision+👁️+MLOps+⚙️;Python+🐍+PyTorch+🔥+TensorFlow+📊+Hugging+Face+🤗+LangChain+🦜" alt="Moving Skills Belt" />
+</div>
+
+### 🚀 Specialization Areas
+
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=16&duration=2000&pause=300&color=4ECDC4&center=true&vCenter=true&width=900&lines=🔥+Retrieval+Augmented+Generation+(RAG)+Systems;🤖+Autonomous+AI+Agents+%26+Multi-Agent+Systems;🧠+Large+Language+Models+(LLMs)+%26+Fine-tuning;📊+Multimodal+AI+%26+Computer+Vision;🗄️+Vector+Databases+%26+Semantic+Search;⚡+Real-time+AI+Applications+%26+APIs;🔍+Information+Retrieval+%26+Knowledge+Graphs" alt="Specializations" />
+</div>
+
+### 🛠️ Tech Stack Carousel
+
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=14&duration=1000&pause=100&color=96CEB4&center=true&vCenter=true&width=1200&lines=🐍+Python+|+🔥+PyTorch+|+📊+TensorFlow+|+🤗+Transformers+|+🦜+LangChain+|+⚡+FastAPI+|+🐳+Docker;🍃+MongoDB+|+🐘+PostgreSQL+|+🔴+Redis+|+📝+Git+|+☁️+AWS+|+🔧+Kubernetes+|+📈+MLflow;🎯+Scikit-learn+|+📊+Pandas+|+🔢+NumPy+|+📈+Matplotlib+|+🎨+Seaborn+|+⚡+Streamlit+|+📱+Gradio;🔍+Elasticsearch+|+🗄️+Pinecone+|+🧮+FAISS+|+📚+ChromaDB+|+🎭+OpenAI+|+🦙+Ollama+|+🌟+Anthropic" alt="Tech Stack" />
+</div>
 
 <br>
 
 <div align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=2000&pause=500&color=FF6B6B&center=true&vCenter=true&width=800&lines=🔥+RAG+Systems+%7C+AI+Agents+%7C+Large+Language+Models;⚡+Multimodal+AI+%7C+Vector+Databases+%7C+Retrieval+Engines;🚀+Python+%7C+PyTorch+%7C+TensorFlow+%7C+LangChain;💡+Research+%7C+Innovation+%7C+Collaboration" alt="Animated Skills" />
+</div>
+
+---
+
+## 📊 GitHub Stats
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=areejmehboob&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="GitHub Stats" />
+</div>
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=areejmehboob&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub Streak" />
+</div>
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=areejmehboob&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Top Languages" />
 </div>
 
 ---

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -20,7 +20,7 @@
 
         /* Animated Header */
         .header {
-            height: 35vh;
+            height: 30vh;
             display: flex;
             align-items: center;
             justify-content: center;

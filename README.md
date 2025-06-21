@@ -90,6 +90,37 @@
             transform: translateY(-2px);
         }
 
+        /* CV Button in Header */
+        .cv-download-header {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            z-index: 10;
+        }
+
+        .cv-button-header {
+            background: linear-gradient(135deg, #ff6b6b, #4ecdc4);
+            color: #000;
+            padding: 12px 24px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1rem;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+            border: 2px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .cv-button-header:hover {
+            transform: translateY(-3px) scale(1.05);
+            box-shadow: 0 8px 25px rgba(255, 107, 107, 0.4);
+            background: linear-gradient(135deg, #ff6b6b, #ff6b6b);
+            color: #fff;
+        }
+
         /* About Section */
         .about-section {
             padding: 60px 0;
@@ -549,17 +580,31 @@
             transform: scale(1.05);
         }
 
-        /* Contact Section */
+        /* Enhanced Contact Section */
         .contact {
-            padding: 60px 0;
+            padding: 80px 0;
             text-align: center;
             background: #111;
         }
 
         .contact h2 {
-            font-size: 2.5rem;
-            margin-bottom: 40px;
+            font-size: 3rem;
+            margin-bottom: 50px;
             color: #ff6b6b;
+            position: relative;
+            display: inline-block;
+        }
+
+        .contact h2::after {
+            content: '';
+            position: absolute;
+            bottom: -15px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100px;
+            height: 4px;
+            background: linear-gradient(90deg, #ff6b6b, #4ecdc4);
+            border-radius: 2px;
         }
 
         .contact-links {
@@ -567,24 +612,35 @@
             justify-content: center;
             gap: 30px;
             flex-wrap: wrap;
+            max-width: 1000px;
+            margin: 0 auto;
         }
 
         .contact-link {
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             color: #fff;
-            padding: 15px 30px;
+            padding: 20px 35px;
             border-radius: 50px;
             text-decoration: none;
             font-weight: bold;
             transition: all 0.3s ease;
             display: flex;
             align-items: center;
-            gap: 10px;
+            gap: 12px;
+            font-size: 1.2rem;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            border: 2px solid rgba(255,255,255,0.1);
         }
 
         .contact-link:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 30px rgba(255, 107, 107, 0.3);
+            transform: translateY(-5px) scale(1.03);
+            box-shadow: 0 15px 30px rgba(255, 107, 107, 0.4);
+        }
+
+        .contact-link[download] {
+            background: linear-gradient(135deg, #ff6b6b, #ff9e4f);
+            font-size: 1.3rem;
+            padding: 22px 40px;
         }
 
         /* Footer */
@@ -622,6 +678,16 @@
             .contact-links {
                 flex-direction: column;
                 align-items: center;
+                gap: 20px;
+            }
+
+            .contact-link {
+                padding: 16px 25px;
+                font-size: 1.1rem;
+            }
+
+            .contact-link[download] {
+                padding: 18px 30px;
             }
 
             .article-card {
@@ -641,38 +707,54 @@
                 align-items: center;
                 gap: 10px;
             }
+
+            .cv-download-header {
+                position: static;
+                margin-top: 20px;
+                text-align: center;
+            }
+
+            .cv-button-header {
+                padding: 10px 20px;
+                font-size: 1rem;
+            }
+
+            .contact h2 {
+                font-size: 2.5rem;
+            }
         }
     </style>
 </head>
 <body>
     <!-- Header with Animated Name -->
-   <!-- Header with Animated Name -->
-<section class="header">
-    <div>
-        <h1 class="name-animation">Areej Mehboob</h1>
-        <div class="typing-animation">
-            <span id="typing-text">NLP Researcher | LLMs | Retrieval Systems</span>
-        </div>
-        <div class="contact-info">
-            <a href="mailto:mehboobareej01@gmail.com" class="contact-link-header">
-                ✉️ mehboobareej01@gmail.com
-            </a>
-            <a href="https://www.linkedin.com/in/areej-mehboob-396b7a207/" class="contact-link-header" target="_blank">
-                🔗 LinkedIn
-            </a>
-            <a href="https://github.com/Areej17-01" class="contact-link-header" target="_blank">
-                💻 GitHub
-            </a>
-        </div>
-        <div class="cv-download">
+    <section class="header">
+        <!-- CV Download Button in Header -->
+        <div class="cv-download-header">
             <a href="https://drive.google.com/uc?export=download&id=16Ma9jEKdb_2ONF6Oz1RE-W1Z5naS0SYQ" 
-               class="cv-button" 
+               class="cv-button-header" 
                download="Areej_Mehboob_CV.pdf">
-                📄 Download CV
+                <span style="font-size: 1.2em;">⬇️</span> Download CV
             </a>
         </div>
-    </div>
-</section>
+        
+        <div>
+            <h1 class="name-animation">Areej Mehboob</h1>
+            <div class="typing-animation">
+                <span id="typing-text">NLP Researcher | LLMs | Retrieval Systems</span>
+            </div>
+            <div class="contact-info">
+                <a href="mailto:mehboobareej01@gmail.com" class="contact-link-header">
+                    ✉️ mehboobareej01@gmail.com
+                </a>
+                <a href="https://www.linkedin.com/in/areej-mehboob-396b7a207/" class="contact-link-header" target="_blank">
+                    🔗 LinkedIn
+                </a>
+                <a href="https://github.com/Areej17-01" class="contact-link-header" target="_blank">
+                    💻 GitHub
+                </a>
+            </div>
+        </div>
+    </section>
 
     <!-- About Section -->
     <section class="about-section">
@@ -766,7 +848,7 @@
         </table>
     </section>
     
-<!-- Featured Projects -->
+    <!-- Featured Projects -->
     <section class="projects">
         <h2>🚀 Featured Projects</h2>
         <div class="project-grid">
@@ -873,7 +955,6 @@
         </div>
     </section>
 
-    
     <!-- Skills and Technology -->
     <section class="skills-tech">
         <h2>🛠️ Skills & Technologies</h2>

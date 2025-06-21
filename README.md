@@ -14,7 +14,7 @@
 
 <br>
 
-## 👩‍💻 About Me
+## 👩‍💻 About Me 
 
 I'm an NLP researcher with a background in machine learning engineering and a BSCS in Computer Science, currently focused on advancing Retrieval-Augmented Generation (RAG) systems, AI agents, and large language models (both traditional and multimodal). My work combines research and application development, building sophisticated retrieval engines, agentic RAG architectures, and autonomous AI agents while also creating practical applications. I have extensive hands-on experience in agent systems development and expertise in LLM evaluation methodologies and fine-tuning. Having transitioned from ML engineering to research, I bring both practical implementation skills and theoretical curiosity to exploring how AI systems can be more reliable and contextual across diverse applications.
 

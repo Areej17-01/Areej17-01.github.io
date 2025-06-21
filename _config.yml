@@ -1,5 +1,62 @@
-title: Areej Mehboob
-logo:
-description: I'm an NLP researcher with a background in machine learning engineering and a BSCS in Computer Science, currently focused on advancing Retrieval-Augmented Generation (RAG) systems, AI agents, and large language models (both traditional and multimodal). My work combines research and application development, building sophisticated retrieval engines, agentic RAG architectures, and autonomous AI agents while also creating practical applications. I have extensive hands-on experience in agent systems development and expertise in LLM evaluation methodologies and fine-tuning. Having transitioned from ML engineering to research, I bring both practical implementation skills and theoretical curiosity to exploring how AI systems can be more reliable and contextual across diverse applications.
-# show_downloads=true
-# theme: jekyll-theme-minimal
+title: Areej Mehboob - NLP Researcher
+description: NLP Researcher specializing in RAG Systems, AI Agents, and Large Language Models
+author: Areej Mehboob
+email: mehboobareej01@gmail.com
+url: https://areejmehboob.github.io
+
+# Theme configuration
+theme: jekyll-theme-minimal
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Social links
+linkedin_username: areej-mehboob-396b7a207
+medium_username: mehboobareej01
+github_username: areejmehboob
+
+# SEO settings
+lang: en
+logo: /assets/images/profile.jpg # Add your profile image here
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:name/
+
+# Markdown settings
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Exclude files
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Include files
+include:
+  - _pages
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Areej Mehboob"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"

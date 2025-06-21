@@ -1,6 +1,6 @@
 # Areej Mehboob
 
-🚀 NLP Researcher | Multimodal AI | LLMs | RAG Systems | ✨ Open to Research & Collaboration  
+NLP Researcher | LLMs | Retrieval Systems | ✨ Open to Research & Collaboration  
 
 ---
 

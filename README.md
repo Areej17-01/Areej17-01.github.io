@@ -96,9 +96,11 @@
         /* Header Buttons Container */
         .header-buttons {
             display: flex;
+            justify-content: center;
             gap: 15px;
             margin-top: 20px;
             z-index: 10;
+            width: 100%; /* Ensure it takes full width */
         }
 
         .cv-button-header, .contact-button-header {
@@ -903,7 +905,7 @@
     <div class="project-grid">
         <div class="project-card">
             <h3>🤖 MultiAgenticSystem-crewAI</h3>
-            <p>A sophisticated multi-agent system built with CrewAI framework...</p>
+            <p>A sophisticated multi-agent system ,designed to perform automated tasks efficiently across various domains. Each agent operates independently, focusing on tasks like internet search, image classification, and retrieval-augmented generation (RAG) based queries.</p>
             <div class="tech-stack">
                 <span class="tech-tag">Python</span>
                 <span class="tech-tag">CrewAI</span>
@@ -913,7 +915,7 @@
         </div>
         <div class="project-card">
             <h3>❓Vision-Text RAG System</h3>
-            <p>A comprehensive multimodal RAG architecture designed for processing images...</p>
+            <p>A comprehensive multimodal RAG architecture designed for processing images and text from pdf, Allowing user to talk with their pdf text and image content</p>
             <div class="tech-stack">
                 <span class="tech-tag">Python</span>
                 <span class="tech-tag">Transformer</span>
@@ -923,7 +925,7 @@
         </div>
         <div class="project-card">
             <h3>🧠 Luminafi</h3>
-            <p>AI-Powered Finance Analysis Workflow: Comprehensive financial analysis...</p>
+            <p>AI-Powered Finance Analysis Workflow: Comprehensive financial analysis with real-time data, AI insights, and news updates</p>
             <div class="tech-stack">
                 <span class="tech-tag">Python</span>
                 <span class="tech-tag">PyTorch</span>
@@ -933,7 +935,7 @@
         </div>
         <div class="project-card">
             <h3>🎭 LLMIND ARENA</h3>
-            <p>AI-Powered Finance Analysis Workflow: Comprehensive financial analysis...</p>
+            <p>An immersive AI experience powered by multiple LLMs, combining emotionally rich family drama roleplay and intelligent debate simulation—each character driven by a distinct language model for dynamic, realistic interactions.</p>
             <div class="tech-stack">
                 <span class="tech-tag">Python</span>
                 <span class="tech-tag">LLMs</span>
@@ -997,12 +999,31 @@
                 <p>2021-2022 (96 CPD Hours)</p>
             </div>
             <div class="cert-item">
-                <img src="certs/UC-33bdcbe9-3723-48e6-ad17-ba73a321bc19.jpg" alt="Django and PostgreSQL Certificate">
-                <h4>Building Web Applications with Django and PostgreSQL</h4>
-                <p>Instructors: Metla Sudha Sekhar, Areej Mehboob</p>
-                <p>March 15, 2025 (5 Hours)</p>
+                <img src="certs/1742035157859.jpg" alt="Applied Data Science with Machine Learning Certificate">
+                <h4>Applied Data Science with ML</h4>
+                <p>Techmazone</p>
+                <p>2021-2022 (96 CPD Hours)</p>
             </div>
-        </div>
+            <div class="cert-item">
+                <img src="certs/UC-3062c044-d171-449a-b0dc-00e4221255d5 (1).jpg" alt="Machine Learning Associate Intended Certificate">
+                <h4>Machine Learning Associate Intended</h4>
+                <p>Jan 15, 2025 (23 Minutes)</p>
+            </div>
+            <div class="cert-item">
+                <img src="certs/pandas.png" alt="Data Manipulation with pandas Certificate">
+                <h4>Data Manipulation With Panda</h4>
+                <p>Aug, 2023 (4 hours)</p>
+            </div>
+            <div class="cert-item">
+                <img src="certs/stats.png" alt="Intro to stattistics Certificate">
+                <h4>Introduction to Statistics In Python</h4>
+                <p>Sep, 2023 (4 hours)</p>
+            </div>
+            <div class="cert-item">
+                <img src="certs/Screenshot 2025-06-23 014313.png" alt="Joining data with pandas Certificate">
+                <h4>Joining Data With Pandas</h4>
+                <p>Sep, 2023 (4 hours)</p>
+            </div>
     </section>
 
     <!-- Skills and Technology -->
@@ -1017,6 +1038,9 @@
                     <span class="badge">TensorFlow</span>
                     <span class="badge">🤗 Hugging Face</span>
                     <span class="badge">🦜 LangChain</span>
+                    <span class="badge"> llamaIndex</span>
+                    <span class="badge"> MCP</span>
+                    <span class="badge"> CrewAI</span>
                 </div>
             </div>
             <div class="skill-category">

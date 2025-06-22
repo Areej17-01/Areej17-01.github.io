@@ -350,7 +350,7 @@
 
         .articles-container {
             display: flex;
-            animation: scroll-articles 25s linear infinite;
+            animation: scroll-articles 35s linear infinite;
             gap: 30px;
         }
 
@@ -477,7 +477,7 @@
 
         .cert-container {
             display: flex;
-            animation: scroll-right 30s linear infinite;
+            animation: scroll-right 35s linear infinite;
         }
 
         @keyframes scroll-right {

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -1024,6 +1024,7 @@
                 <h4>Joining Data With Pandas</h4>
                 <p>Sep, 2023 (4 hours)</p>
             </div>
+        </div>
     </section>
 
     <!-- Skills and Technology -->

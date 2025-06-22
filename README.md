@@ -1012,7 +1012,7 @@
             <div class="cert-item">
                 <img src="certs/UC-33bdcbe9-3723-48e6-ad17-ba73a321bc19.jpg" alt="Building Applications with Django and PostgreSQL Certificate">
                 <h4>Building Applications with Django and PostgreSQL</h4>
-                <p>March, 2024 (5 Minutes)</p>
+                <p>March, 2024 (5 hours)</p>
             </div>
             <div class="cert-item">
                 <img src="certs/pandas.png" alt="Data Manipulation with pandas Certificate">

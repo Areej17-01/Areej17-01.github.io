@@ -948,13 +948,13 @@
         <h2>🏆 Certifications</h2>
         <div class="cert-container">
             <div class="cert-item">
-                <img src="1742035157859.jpg" alt="Applied Data Science with Machine Learning Certificate">
+                <img src=""cert/1742035157859.jpg" alt="Applied Data Science with Machine Learning Certificate">
                 <h4>Applied Data Science with ML</h4>
                 <p>Techmazone</p>
                 <p>2021-2022 (96 CPD Hours)</p>
             </div>
             <div class="cert-item">
-                <img src="UC-33bdcbe9-3723-48e6-ad17-ba73a321bc19.jpg" alt="Django and PostgreSQL Certificate">
+                <img src="cert/UC-33bdcbe9-3723-48e6-ad17-ba73a321bc19.jpg" alt="Django and PostgreSQL Certificate">
                 <h4>Building Web Applications with Django and PostgreSQL</h4>
                 <p>Instructors: Metla Sudha Sekhar, Areej Mehboob</p>
                 <p>March 15, 2025 (5 Hours)</p>

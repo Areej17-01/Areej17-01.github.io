@@ -784,6 +784,9 @@
                 <a href="https://github.com/Areej17-01" class="contact-link-header" target="_blank">
                     💻 GitHub
                 </a>
+                <a href="https://huggingface.co/spaces/AreejMehboob17" class="contact-link-header" target="_blank">
+                    🤗 Hugging Face
+                </a>
             </div>
             
             <!-- Buttons Container -->
@@ -988,13 +991,13 @@
         <h2>🏆 Certifications</h2>
         <div class="cert-container">
             <div class="cert-item">
-                <img src="1742035157859.jpg" alt="Applied Data Science with Machine Learning Certificate">
+                <img src="certs/1742035157859.jpg" alt="Applied Data Science with Machine Learning Certificate">
                 <h4>Applied Data Science with ML</h4>
                 <p>Techmazone</p>
                 <p>2021-2022 (96 CPD Hours)</p>
             </div>
             <div class="cert-item">
-                <img src="UC-33bdcbe9-3723-48e6-ad17-ba73a321bc19.jpg" alt="Django and PostgreSQL Certificate">
+                <img src="certs/UC-33bdcbe9-3723-48e6-ad17-ba73a321bc19.jpg" alt="Django and PostgreSQL Certificate">
                 <h4>Building Web Applications with Django and PostgreSQL</h4>
                 <p>Instructors: Metla Sudha Sekhar, Areej Mehboob</p>
                 <p>March 15, 2025 (5 Hours)</p>
@@ -1042,8 +1045,8 @@
     <section class="contact">
         <h2>🔗 Let's Connect</h2>
         <div class="contact-links">
-            <a href="https://areejmehboob.github.io" class="contact-link" target="_blank">
-                🌐 Portfolio
+            <a href="https://huggingface.co/spaces/AreejMehboob17" class="contact-link" target="_blank">
+                🤗 Hugging face
             </a>
             <a href="https://www.linkedin.com/in/areej-mehboob-396b7a207/" class="contact-link" target="_blank">
                 💼 LinkedIn

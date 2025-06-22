@@ -20,7 +20,7 @@
 
         /* Animated Header */
         .header {
-            height: 40vh;
+            height: 50vh;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -877,26 +877,41 @@
                 <a href="https://github.com/Areej17-01/MultiAgenticSystem-crewAI-" class="project-link" target="_blank">View Project</a>
             </div>
             <div class="project-card">
-                <h3>🔍 Enterprise RAG System</h3>
-                <p>A comprehensive multimodal RAG architecture designed for enterprise applications, featuring advanced retrieval mechanisms and support for various document types.</p>
+                <h3>❓Vision-Text RAG System</h3>
+                <p>A comprehensive multimodal RAG architecture designed for processing images and text both on your pdfs, allowing you to question and retrieve over all pdf contents .</p>
                 <div class="tech-stack">
                     <span class="tech-tag">Python</span>
-                    <span class="tech-tag">LangChain</span>
-                    <span class="tech-tag">Vector DB</span>
-                    <span class="tech-tag">FastAPI</span>
+                    <span class="tech-tag">Transformer</span>
+                    <span class="tech-tag">qdrant DB</span>
+                    <span class="tech-tag">Streamlit</span>
                 </div>
-                <a href="#" class="project-link">Coming Soon</a>
+                 <a href="https://huggingface.co/spaces/AreejMehboob17/VisionText-RAG" class="project-link" target="_blank">View Project</a>
+                
             </div>
             <div class="project-card">
-                <h3>🧠 LLM Evaluation Framework</h3>
-                <p>A robust framework for evaluating large language models with comprehensive metrics, benchmarks, and automated testing pipelines for AI system performance.</p>
+                <h3>🧠 Luminafi</h3>
+                <p>AI-Powered Finance Analysis Workflow: Comprehensive financial analysis with real-time data, AI insights, and news updates.</p>
                 <div class="tech-stack">
                     <span class="tech-tag">Python</span>
                     <span class="tech-tag">PyTorch</span>
                     <span class="tech-tag">Transformers</span>
                     <span class="tech-tag">Evaluation</span>
                 </div>
-                <a href="#" class="project-link">Coming Soon</a>
+                <a href="https://huggingface.co/spaces/AreejMehboob17/LuminaFi" class="project-link" target="_blank">View Project</a>
+               
+            </div>
+        </div>
+        <div class="project-card">
+                <h3>🎭 LLMIND ARENA</h3>
+                <p>AI-Powered Finance Analysis Workflow: Comprehensive financial analysis with real-time data, AI insights, and news updates.</p>
+                <div class="tech-stack">
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">LLMs</span>
+                    <span class="tech-tag">Transformers</span>
+                    <span class="tech-tag">streamlit</span>
+                </div>
+                <a href="https://huggingface.co/spaces/AreejMehboob17/LLMindArena" class="project-link" target="_blank">View Project</a>
+               
             </div>
         </div>
     </section>

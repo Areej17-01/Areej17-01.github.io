@@ -502,100 +502,131 @@
             margin-bottom: 15px;
         }
 
-        /* Projects Section */
-        .projects {
-            padding: 60px 0;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
+       /* Projects Section */
+.projects {
+    padding: 60px 0;
+    max-width: 1500px; /* Increased to accommodate 4 projects */
+    margin: 0 auto;
+    overflow-x: auto; /* Allows horizontal scrolling if needed */
+}
 
-        .projects h2 {
-            text-align: center;
-            font-size: 2.5rem;
-            margin-bottom: 40px;
-            color: #ff6b6b;
-        }
+.projects h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #ff6b6b;
+}
 
-        .project-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-            gap: 30px;
-            padding: 0 20px;
-        }
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Fixed 4 columns */
+    gap: 30px;
+    padding: 0 20px;
+    min-width: 1400px; /* Minimum width to prevent wrapping */
+}
 
-        .project-card {
-            background: #111;
-            border-radius: 20px;
-            padding: 30px;
-            border: 2px solid #333;
-            transition: all 0.3s ease;
-            position: relative;
-            overflow: hidden;
-        }
+.project-card {
+    background: #111;
+    border-radius: 20px;
+    padding: 30px;
+    border: 2px solid #333;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    min-width: 350px; /* Minimum card width */
+}
 
-        .project-card::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: -100%;
-            width: 100%;
-            height: 100%;
-            background: linear-gradient(45deg, transparent, rgba(255, 107, 107, 0.1), transparent);
-            transition: left 0.5s ease;
-        }
+.project-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, transparent, rgba(255, 107, 107, 0.1), transparent);
+    transition: left 0.5s ease;
+}
 
-        .project-card:hover::before {
-            left: 100%;
-        }
+.project-card:hover::before {
+    left: 100%;
+}
 
-        .project-card:hover {
-            transform: translateY(-10px);
-            border-color: #ff6b6b;
-        }
+.project-card:hover {
+    transform: translateY(-10px);
+    border-color: #ff6b6b;
+}
 
-        .project-card h3 {
-            font-size: 1.5rem;
-            margin-bottom: 15px;
-            color: #4ecdc4;
-        }
+.project-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #4ecdc4;
+}
 
-        .project-card p {
-            color: #ddd;
-            line-height: 1.6;
-            margin-bottom: 20px;
-        }
+.project-card p {
+    color: #ddd;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
 
-        .tech-stack {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 8px;
-            margin-bottom: 20px;
-        }
+.tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 20px;
+}
 
-        .tech-tag {
-            background: #333;
-            padding: 5px 12px;
-            border-radius: 15px;
-            font-size: 0.8rem;
-            color: #4ecdc4;
-        }
+.tech-tag {
+    background: #333;
+    padding: 5px 12px;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    color: #4ecdc4;
+}
 
-        .project-link {
-            display: inline-block;
-            background: linear-gradient(135deg, #ff6b6b, #4ecdc4);
-            color: #000;
-            padding: 10px 20px;
-            border-radius: 25px;
-            text-decoration: none;
-            font-weight: bold;
-            transition: transform 0.3s ease;
-        }
+.project-link {
+    display: inline-block;
+    background: linear-gradient(135deg, #ff6b6b, #4ecdc4);
+    color: #000;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+}
 
-        .project-link:hover {
-            transform: scale(1.05);
-        }
+.project-link:hover {
+    transform: scale(1.05);
+}
 
-        /* Enhanced Contact Section */
+/* Responsive adjustments */
+@media (max-width: 1600px) {
+    .project-grid {
+        min-width: 1200px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .project-grid {
+        grid-template-columns: repeat(4, 300px);
+        gap: 20px;
+    }
+    .project-card {
+        min-width: 300px;
+        padding: 25px;
+    }
+}
+
+@media (max-width: 768px) {
+    .project-grid {
+        grid-template-columns: repeat(4, 280px);
+        gap: 15px;
+    }
+    .project-card {
+        min-width: 280px;
+        padding: 20px;
+    }
+} 
+/* Enhanced Contact Section */
         .contact {
             padding: 80px 0;
             text-align: center;
@@ -863,50 +894,47 @@
     
     <!-- Featured Projects -->
    <!-- Projects Section -->
+<!-- Projects Section -->
 <section class="projects">
     <h2>🚀 Featured Projects</h2>
     <div class="project-grid">
         <div class="project-card">
             <h3>🤖 MultiAgenticSystem-crewAI</h3>
-            <p>A sophisticated multi-agent system built with CrewAI framework, featuring autonomous AI agents that collaborate to solve complex tasks through intelligent coordination and communication.</p>
+            <p>A sophisticated multi-agent system built with CrewAI framework...</p>
             <div class="tech-stack">
                 <span class="tech-tag">Python</span>
                 <span class="tech-tag">CrewAI</span>
                 <span class="tech-tag">LangChain</span>
-                <span class="tech-tag">AI Agents</span>
             </div>
             <a href="https://github.com/Areej17-01/MultiAgenticSystem-crewAI-" class="project-link" target="_blank">View Project</a>
         </div>
         <div class="project-card">
             <h3>❓Vision-Text RAG System</h3>
-            <p>A comprehensive multimodal RAG architecture designed for processing images and text both on your pdfs, allowing you to question and retrieve over all pdf contents .</p>
+            <p>A comprehensive multimodal RAG architecture designed for processing images...</p>
             <div class="tech-stack">
                 <span class="tech-tag">Python</span>
                 <span class="tech-tag">Transformer</span>
                 <span class="tech-tag">qdrant DB</span>
-                <span class="tech-tag">Streamlit</span>
             </div>
             <a href="https://huggingface.co/spaces/AreejMehboob17/VisionText-RAG" class="project-link" target="_blank">View Project</a>
         </div>
         <div class="project-card">
             <h3>🧠 Luminafi</h3>
-            <p>AI-Powered Finance Analysis Workflow: Comprehensive financial analysis with real-time data, AI insights, and news updates.</p>
+            <p>AI-Powered Finance Analysis Workflow: Comprehensive financial analysis...</p>
             <div class="tech-stack">
                 <span class="tech-tag">Python</span>
                 <span class="tech-tag">PyTorch</span>
                 <span class="tech-tag">Transformers</span>
-                <span class="tech-tag">Evaluation</span>
             </div>
             <a href="https://huggingface.co/spaces/AreejMehboob17/LuminaFi" class="project-link" target="_blank">View Project</a>
         </div>
         <div class="project-card">
             <h3>🎭 LLMIND ARENA</h3>
-            <p>AI-Powered Finance Analysis Workflow: Comprehensive financial analysis with real-time data, AI insights, and news updates.</p>
+            <p>AI-Powered Finance Analysis Workflow: Comprehensive financial analysis...</p>
             <div class="tech-stack">
                 <span class="tech-tag">Python</span>
                 <span class="tech-tag">LLMs</span>
                 <span class="tech-tag">Transformers</span>
-                <span class="tech-tag">streamlit</span>
             </div>
             <a href="https://huggingface.co/spaces/AreejMehboob17/LLMindArena" class="project-link" target="_blank">View Project</a>
         </div>

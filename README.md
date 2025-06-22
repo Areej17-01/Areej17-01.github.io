@@ -862,59 +862,56 @@
     </section>
     
     <!-- Featured Projects -->
-    <section class="projects">
-        <h2>🚀 Featured Projects</h2>
-        <div class="project-grid">
-            <div class="project-card">
-                <h3>🤖 MultiAgenticSystem-crewAI</h3>
-                <p>A sophisticated multi-agent system built with CrewAI framework, featuring autonomous AI agents that collaborate to solve complex tasks through intelligent coordination and communication.</p>
-                <div class="tech-stack">
-                    <span class="tech-tag">Python</span>
-                    <span class="tech-tag">CrewAI</span>
-                    <span class="tech-tag">LangChain</span>
-                    <span class="tech-tag">AI Agents</span>
-                </div>
-                <a href="https://github.com/Areej17-01/MultiAgenticSystem-crewAI-" class="project-link" target="_blank">View Project</a>
+   <!-- Projects Section -->
+<section class="projects">
+    <h2>🚀 Featured Projects</h2>
+    <div class="project-grid">
+        <div class="project-card">
+            <h3>🤖 MultiAgenticSystem-crewAI</h3>
+            <p>A sophisticated multi-agent system built with CrewAI framework, featuring autonomous AI agents that collaborate to solve complex tasks through intelligent coordination and communication.</p>
+            <div class="tech-stack">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">CrewAI</span>
+                <span class="tech-tag">LangChain</span>
+                <span class="tech-tag">AI Agents</span>
             </div>
-            <div class="project-card">
-                <h3>❓Vision-Text RAG System</h3>
-                <p>A comprehensive multimodal RAG architecture designed for processing images and text both on your pdfs, allowing you to question and retrieve over all pdf contents .</p>
-                <div class="tech-stack">
-                    <span class="tech-tag">Python</span>
-                    <span class="tech-tag">Transformer</span>
-                    <span class="tech-tag">qdrant DB</span>
-                    <span class="tech-tag">Streamlit</span>
-                </div>
-                 <a href="https://huggingface.co/spaces/AreejMehboob17/VisionText-RAG" class="project-link" target="_blank">View Project</a>
-                
-            </div>
-            <div class="project-card">
-                <h3>🧠 Luminafi</h3>
-                <p>AI-Powered Finance Analysis Workflow: Comprehensive financial analysis with real-time data, AI insights, and news updates.</p>
-                <div class="tech-stack">
-                    <span class="tech-tag">Python</span>
-                    <span class="tech-tag">PyTorch</span>
-                    <span class="tech-tag">Transformers</span>
-                    <span class="tech-tag">Evaluation</span>
-                </div>
-                <a href="https://huggingface.co/spaces/AreejMehboob17/LuminaFi" class="project-link" target="_blank">View Project</a>
-               
-            </div>
+            <a href="https://github.com/Areej17-01/MultiAgenticSystem-crewAI-" class="project-link" target="_blank">View Project</a>
         </div>
         <div class="project-card">
-                <h3>🎭 LLMIND ARENA</h3>
-                <p>AI-Powered Finance Analysis Workflow: Comprehensive financial analysis with real-time data, AI insights, and news updates.</p>
-                <div class="tech-stack">
-                    <span class="tech-tag">Python</span>
-                    <span class="tech-tag">LLMs</span>
-                    <span class="tech-tag">Transformers</span>
-                    <span class="tech-tag">streamlit</span>
-                </div>
-                <a href="https://huggingface.co/spaces/AreejMehboob17/LLMindArena" class="project-link" target="_blank">View Project</a>
-               
+            <h3>❓Vision-Text RAG System</h3>
+            <p>A comprehensive multimodal RAG architecture designed for processing images and text both on your pdfs, allowing you to question and retrieve over all pdf contents .</p>
+            <div class="tech-stack">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Transformer</span>
+                <span class="tech-tag">qdrant DB</span>
+                <span class="tech-tag">Streamlit</span>
             </div>
+            <a href="https://huggingface.co/spaces/AreejMehboob17/VisionText-RAG" class="project-link" target="_blank">View Project</a>
         </div>
-    </section>
+        <div class="project-card">
+            <h3>🧠 Luminafi</h3>
+            <p>AI-Powered Finance Analysis Workflow: Comprehensive financial analysis with real-time data, AI insights, and news updates.</p>
+            <div class="tech-stack">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">PyTorch</span>
+                <span class="tech-tag">Transformers</span>
+                <span class="tech-tag">Evaluation</span>
+            </div>
+            <a href="https://huggingface.co/spaces/AreejMehboob17/LuminaFi" class="project-link" target="_blank">View Project</a>
+        </div>
+        <div class="project-card">
+            <h3>🎭 LLMIND ARENA</h3>
+            <p>AI-Powered Finance Analysis Workflow: Comprehensive financial analysis with real-time data, AI insights, and news updates.</p>
+            <div class="tech-stack">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">LLMs</span>
+                <span class="tech-tag">Transformers</span>
+                <span class="tech-tag">streamlit</span>
+            </div>
+            <a href="https://huggingface.co/spaces/AreejMehboob17/LLMindArena" class="project-link" target="_blank">View Project</a>
+        </div>
+    </div>
+</section>
 
     <!-- Interactive Articles Section -->
     <section class="articles-section">

@@ -791,17 +791,8 @@
                 </a>
             </div>
             
-            <!-- Buttons Container -->
-            <div class="header-buttons">
-                <a href="https://drive.google.com/uc?export=download&id=16Ma9jEKdb_2ONF6Oz1RE-W1Z5naS0SYQ" 
-                   class="cv-button-header" 
-                   download="Areej_Mehboob_CV.pdf">
-                    <span style="font-size: 1.2em;">⬇️</span> Download CV
-                </a>
-                <a href="mailto:mehboobareej01@gmail.com" class="contact-button-header">
-                    ✉️ Contact Me
-                </a>
-            </div>
+        
+            
         </div>
     </section>
 

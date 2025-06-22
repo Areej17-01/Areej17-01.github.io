@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -26,6 +27,8 @@
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             position: relative;
             overflow: hidden;
+            flex-direction: column;
+            padding-top: 20px;
         }
 
         .header::before {
@@ -90,15 +93,15 @@
             transform: translateY(-2px);
         }
 
-        /* CV Button in Header */
-        .cv-download-header {
-            position: absolute;
-            top: 20px;
-            right: 20px;
+        /* Header Buttons Container */
+        .header-buttons {
+            display: flex;
+            gap: 15px;
+            margin-top: 20px;
             z-index: 10;
         }
 
-        .cv-button-header {
+        .cv-button-header, .contact-button-header {
             background: linear-gradient(135deg, #ff6b6b, #4ecdc4);
             color: #000;
             padding: 12px 24px;
@@ -114,11 +117,22 @@
             border: 2px solid rgba(255, 255, 255, 0.2);
         }
 
-        .cv-button-header:hover {
+        .contact-button-header {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+        }
+
+        .cv-button-header:hover, .contact-button-header:hover {
             transform: translateY(-3px) scale(1.05);
             box-shadow: 0 8px 25px rgba(255, 107, 107, 0.4);
-            background: linear-gradient(135deg, #ff6b6b, #ff6b6b);
             color: #fff;
+        }
+
+        .cv-button-header:hover {
+            background: linear-gradient(135deg, #ff6b6b, #ff6b6b);
+        }
+
+        .contact-button-header:hover {
+            background: linear-gradient(135deg, #667eea, #667eea);
         }
 
         /* About Section */
@@ -480,9 +494,10 @@
         }
 
         .cert-item img {
-            width: 100px;
-            height: 100px;
-            object-fit: cover;
+            width: 100%;
+            height: auto;
+            max-height: 150px;
+            object-fit: contain;
             border-radius: 10px;
             margin-bottom: 15px;
         }
@@ -708,15 +723,10 @@
                 gap: 10px;
             }
 
-            .cv-download-header {
-                position: static;
-                margin-top: 20px;
-                text-align: center;
-            }
-
-            .cv-button-header {
-                padding: 10px 20px;
-                font-size: 1rem;
+            .header-buttons {
+                flex-direction: column;
+                align-items: center;
+                gap: 10px;
             }
 
             .contact h2 {
@@ -728,15 +738,6 @@
 <body>
     <!-- Header with Animated Name -->
     <section class="header">
-        <!-- CV Download Button in Header -->
-        <div class="cv-download-header">
-            <a href="https://drive.google.com/uc?export=download&id=16Ma9jEKdb_2ONF6Oz1RE-W1Z5naS0SYQ" 
-               class="cv-button-header" 
-               download="Areej_Mehboob_CV.pdf">
-                <span style="font-size: 1.2em;">⬇️</span> Download CV
-            </a>
-        </div>
-        
         <div>
             <h1 class="name-animation">Areej Mehboob</h1>
             <div class="typing-animation">
@@ -751,6 +752,18 @@
                 </a>
                 <a href="https://github.com/Areej17-01" class="contact-link-header" target="_blank">
                     💻 GitHub
+                </a>
+            </div>
+            
+            <!-- Buttons Container -->
+            <div class="header-buttons">
+                <a href="https://drive.google.com/uc?export=download&id=16Ma9jEKdb_2ONF6Oz1RE-W1Z5naS0SYQ" 
+                   class="cv-button-header" 
+                   download="Areej_Mehboob_CV.pdf">
+                    <span style="font-size: 1.2em;">⬇️</span> Download CV
+                </a>
+                <a href="mailto:mehboobareej01@gmail.com" class="contact-button-header">
+                    ✉️ Contact Me
                 </a>
             </div>
         </div>
@@ -935,22 +948,16 @@
         <h2>🏆 Certifications</h2>
         <div class="cert-container">
             <div class="cert-item">
-                <img src="https://via.placeholder.com/100x100/4ecdc4/ffffff?text=ML" alt="ML Certificate">
+                <img src="1742035157859.jpg" alt="Applied Data Science with Machine Learning Certificate">
                 <h4>Applied Data Science with ML</h4>
                 <p>Techmazone</p>
-                <p>2021-2022</p>
+                <p>2021-2022 (96 CPD Hours)</p>
             </div>
             <div class="cert-item">
-                <img src="https://via.placeholder.com/100x100/ff6b6b/ffffff?text=AI" alt="AI Certificate">
-                <h4>AI Fundamentals</h4>
-                <p>Tech Institute</p>
-                <p>2023</p>
-            </div>
-            <div class="cert-item">
-                <img src="https://via.placeholder.com/100x100/45b7d1/ffffff?text=DL" alt="Deep Learning Certificate">
-                <h4>Deep Learning Specialization</h4>
-                <p>Online Academy</p>
-                <p>2024</p>
+                <img src="UC-33bdcbe9-3723-48e6-ad17-ba73a321bc19.jpg" alt="Django and PostgreSQL Certificate">
+                <h4>Building Web Applications with Django and PostgreSQL</h4>
+                <p>Instructors: Metla Sudha Sekhar, Areej Mehboob</p>
+                <p>March 15, 2025 (5 Hours)</p>
             </div>
         </div>
     </section>
@@ -1012,9 +1019,10 @@
 
     <!-- Footer -->
     <footer class="footer">
-        <h3>🙏 Thanks for visiting! Let's build the together! 🚀</h3>
+        <h3>🙏 Thanks for visiting! Let's build together! 🚀</h3>
         <p style="color: #666; margin-top: 10px;">© 2024 Areej Mehboob. All rights reserved.</p>
     </footer>
+</footer>
 
     <script>
         // Typing animation
@@ -1064,3 +1072,5 @@
     </script>
 </body>
 </html>
+
+   

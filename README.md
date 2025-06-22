@@ -477,7 +477,7 @@
 
         .cert-container {
             display: flex;
-            animation: scroll-right 15s linear infinite;
+            animation: scroll-right 30s linear infinite;
         }
 
         @keyframes scroll-right {

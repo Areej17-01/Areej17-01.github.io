@@ -999,15 +999,20 @@
                 <p>2021-2022 (96 CPD Hours)</p>
             </div>
             <div class="cert-item">
-                <img src="certs/1742035157859.jpg" alt="Applied Data Science with Machine Learning Certificate">
-                <h4>Applied Data Science with ML</h4>
-                <p>Techmazone</p>
-                <p>2021-2022 (96 CPD Hours)</p>
+                <img src="certs/llm mastery.jpg" alt="LLM Mastery: Complete Guide To Transformer And GenAI">
+                <h4>LLM Mastery: Complete Guide To Transformer And GenAI</h4>
+                <p>Udemy</p>
+                <p>Feb, 2025 (7.5 Hours)</p>
             </div>
             <div class="cert-item">
                 <img src="certs/UC-3062c044-d171-449a-b0dc-00e4221255d5 (1).jpg" alt="Machine Learning Associate Intended Certificate">
                 <h4>Machine Learning Associate Intended</h4>
-                <p>Jan 15, 2025 (23 Minutes)</p>
+                <p>Jan, 2025 (23 Minutes)</p>
+            </div>
+            <div class="cert-item">
+                <img src="certs/UC-33bdcbe9-3723-48e6-ad17-ba73a321bc19.jpg" alt="Building Applications with Django and PostgreSQL Certificate">
+                <h4>Building Applications with Django and PostgreSQL</h4>
+                <p>March, 2024 (5 Minutes)</p>
             </div>
             <div class="cert-item">
                 <img src="certs/pandas.png" alt="Data Manipulation with pandas Certificate">

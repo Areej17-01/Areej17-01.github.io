@@ -846,12 +846,6 @@
                     <td>Karachi, Pakistan</td>
                     <td>January 2020 – January 2024</td>
                 </tr>
-                <tr>
-                    <td>Techmazone</td>
-                    <td>Applied Data Science with Machine Learning</td>
-                    <td>Karachi, Pakistan</td>
-                    <td>February 2021 – January 2022</td>
-                </tr>
             </tbody>
         </table>
     </section>

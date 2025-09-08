@@ -439,7 +439,7 @@
 
         <!-- Technical Projects -->
         <section class="section">
-            <h2>Research Projects</h2>
+            <h2>Technical Projects</h2>
             <div class="projects-compact">
                 <div class="project-item">
                     <h3>MultiAgenticSystem-crewAI</h3>

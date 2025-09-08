@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -437,7 +437,7 @@
             </div>
         </section>
 
-        <!-- Research Projects -->
+        <!-- Technical Projects -->
         <section class="section">
             <h2>Research Projects</h2>
             <div class="projects-compact">
@@ -470,7 +470,7 @@
 
         <!-- Publications & Articles -->
         <section class="section">
-            <h2>Publications & Technical Articles</h2>
+            <h2>Technical Articles</h2>
             <div class="articles-compact">
                 <div class="article-item">
                     <h3>Enabling Agentic AI Through the Model Context Protocol (MCP)</h3>

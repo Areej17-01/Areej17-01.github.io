@@ -355,13 +355,20 @@
             </div>
         </header>
 
-        <!-- Research Statement -->
-        <section class="section">
-            <h2>Research Focus</h2>
-            <div class="about-content">
-                <p>NLP researcher  AI agents, specializing in Retrieval-Augmented Generation (RAG) systems, and large language models (traditional and multimodal). My research combines theoretical advancement with practical application development, focusing on sophisticated retrieval engines, agentic RAG architectures, and autonomous AI agents. I have extensive experience in LLM evaluation methodologies and fine-tuning techniques.</p>
-            </div>
-        </section>
+       <section class="section">
+    <h2>Research Focus</h2>
+    <div class="about-content">
+        <ul>
+            <li><strong>Agentic AI & Program Synthesis</strong> — autonomous agents, multi-agent systems, and code generation agents.</li>
+
+            <li><strong>Retrieval Systems & RAG</strong> — design and optimization of dense, sparse, hybrid, and multimodal retrieval engines; RAG for complex reasoning.</li>
+
+            <li><strong>LLM Evaluation & Benchmarking</strong> — evaluation pipelines, LLM-as-judge methodologies, and benchmark development for code, retrieval, and multimodal tasks.</li>
+
+            <li><strong>Multimodal Document Understanding</strong> — parsing and reasoning across text, tables, and images, with dataset creation and empirical evaluation.</li>
+        </ul>
+    </div>
+</section>
 
         <!-- Education -->
         <section class="section">

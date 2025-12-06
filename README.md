@@ -359,7 +359,7 @@
         <section class="section">
             <h2>Research Focus</h2>
             <div class="about-content">
-                <p>NLP researcher specializing in Retrieval-Augmented Generation (RAG) systems, AI agents, and large language models (traditional and multimodal). My research combines theoretical advancement with practical application development, focusing on sophisticated retrieval engines, agentic RAG architectures, and autonomous AI agents. I have extensive experience in LLM evaluation methodologies and fine-tuning techniques.</p>
+                <p>NLP researcher  AI agents, specializing in Retrieval-Augmented Generation (RAG) systems, and large language models (traditional and multimodal). My research combines theoretical advancement with practical application development, focusing on sophisticated retrieval engines, agentic RAG architectures, and autonomous AI agents. I have extensive experience in LLM evaluation methodologies and fine-tuning techniques.</p>
             </div>
         </section>
 
@@ -437,36 +437,6 @@
             </div>
         </section>
 
-        <!-- Technical Projects -->
-        <section class="section">
-            <h2>Technical Projects</h2>
-            <div class="projects-compact">
-                <div class="project-item">
-                    <h3>MultiAgenticSystem-crewAI</h3>
-                    <p>Sophisticated multi-agent system for automated task performance across domains. Independent agents handle internet search, image classification, and RAG-based queries with autonomous coordination.</p>
-                    <div class="tech-inline">Technologies: Python, CrewAI, LangChain</div>
-                    <a href="https://github.com/Areej17-01/MultiAgenticSystem-crewAI-" class="project-link" target="_blank">View Project</a>
-                </div>
-                <div class="project-item">
-                    <h3>Vision-Text RAG System</h3>
-                    <p>Comprehensive multimodal RAG architecture for processing images and text from PDFs. Enables conversational interaction with both textual and visual document content.</p>
-                    <div class="tech-inline">Technologies: Python, Transformers, Qdrant DB</div>
-                    <a href="https://huggingface.co/spaces/AreejMehboob17/VisionText-RAG" class="project-link" target="_blank">View Project</a>
-                </div>
-                <div class="project-item">
-                    <h3>Luminafi</h3>
-                    <p>AI-powered financial analysis workflow combining real-time data processing, intelligent insights generation, and automated news integration for comprehensive financial decision support.</p>
-                    <div class="tech-inline">Technologies: Python, PyTorch, Transformers</div>
-                    <a href="https://huggingface.co/spaces/AreejMehboob17/LuminaFi" class="project-link" target="_blank">View Project</a>
-                </div>
-                <div class="project-item">
-                    <h3>LLMIND ARENA</h3>
-                    <p>Multi-LLM interactive system featuring emotionally rich roleplay scenarios and intelligent debate simulation. Each character powered by distinct language models for dynamic, realistic interactions.</p>
-                    <div class="tech-inline">Technologies: Python, Multiple LLMs, Transformers</div>
-                    <a href="https://huggingface.co/spaces/AreejMehboob17/LLMindArena" class="project-link" target="_blank">View Project</a>
-                </div>
-            </div>
-        </section>
 
         <!-- Publications & Articles -->
         <section class="section">

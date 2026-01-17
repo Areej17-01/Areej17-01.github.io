@@ -497,8 +497,9 @@
                     <p>February 2025 • 7.5 Hours</p>
                 </div>
                 <div class="cert-item">
-                    <h4>Machine Learning Associate</h4>
-                    <p>January 2025</p>
+                    <h4>Mastering Agentic Design Patterns with Hands-on Projects</h4>
+                     <p>Udemy</p>
+                    <p>February 2026 • 5.5 Hours</p>
                 </div>
                 <div class="cert-item">
                     <h4>Building Applications with Django and PostgreSQL</h4>

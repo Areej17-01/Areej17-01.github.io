@@ -351,7 +351,7 @@
                 <a href="mailto:mehboobareej01@gmail.com" class="contact-link">mehboobareej01@gmail.com</a>
                 <a href="https://www.linkedin.com/in/areej-mehboob-396b7a207/" class="contact-link" target="_blank">LinkedIn</a>
                 <a href="https://github.com/Areej17-01" class="contact-link" target="_blank">GitHub</a>
-                <a href="https://huggingface.co/spaces/AreejMehboob17" class="contact-link" target="_blank">Hugging Face</a>
+                <a href="https://huggingface.co/AreejMehboob17" class="contact-link" target="_blank">Hugging Face</a>
             </div>
         </header>
 

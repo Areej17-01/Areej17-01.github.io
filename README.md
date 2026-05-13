@@ -423,7 +423,7 @@
         <div class="hero">
             <p class="hero-label">// applied nlp researcher & ai systems engineer</p>
             <h1>Areej Mehboob</h1>
-            <p class="hero-role">NLP Researcher &nbsp;·&nbsp; Karachi, Pakistan</p>
+            <p class="hero-role">NLP Researcher &nbsp; </p>
             <p>I research and build AI systems that make information more accessible — through better language understanding, reliable agents, and evaluation frameworks that actually measure what matters. My focus is on making <strong>agentic AI</strong> not just capable, but genuinely trustworthy.</p>
             <p>My work spans <strong>coding agents</strong>, <strong>LLM evaluation for agents and languages</strong>, retrieval system design, and benchmark development. I care about building agents that reason well, fail gracefully, and can be meaningfully assessed.</p>
         </div>

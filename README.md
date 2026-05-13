@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -532,7 +532,7 @@
     <div id="research" class="tab-content">
 
         <div class="section-head">
-            <h2>Publications</h2>
+            <h2>Research Papers</h2>
             <span class="mono">// papers</span>
         </div>
         <div style="margin-bottom:2.5rem">

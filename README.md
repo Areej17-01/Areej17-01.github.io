@@ -586,9 +586,9 @@
             </div>
             <div class="proj-item">
                 <p class="proj-icon">// RETRIEVAL</p>
-                <h4>RAG Comparison & Benchmarking</h4>
+                <h4>Information Retrieval Comparison & Benchmarking</h4>
                 <p>Systematic benchmarking and comparison of RAG approaches across architectures and retrieval configurations.</p>
-                <a href="https://github.com/Areej17-01/RAG-Comparison-Benchmarking" target="_blank" class="proj-link">github.com/Areej17-01 →</a>
+                <a href="https://github.com/Areej17-01/Information-Retrieval-Comparison-Benchmarking" target="_blank" class="proj-link">github.com/Areej17-01 →</a>
             </div>
         </div>
 
